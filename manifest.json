@@ -1,0 +1,16 @@
+{
+  "name": "光復國小 校園探險王",
+  "short_name": "校園探險王",
+  "description": "在 3D 光復國小校園裡找老師闖關，一到六年級各科學習遊戲",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#cfe6fb",
+  "theme_color": "#cfe6fb",
+  "lang": "zh-Hant-TW",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
