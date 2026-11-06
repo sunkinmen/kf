@@ -31,16 +31,16 @@
     plaza: { x0: -62, x1: -13, z0: 2.6, z1: 26.4 },   // 校門椰林迎賓大道與廣場
     garden: { x0: -49, x1: -4, z0: 27.7, z1: 61 },    // 西南生態花園（植物詩文步道、荷花池與大波斯菊花海）
     buildings: [
-      { id: 'mingde', name: '明德樓', sub: '行政大樓・4F 活動中心', x0: -56.8, x1: -9.8, z0: -31.2, z1: -4.0, floors: 5, roof: 'arch', wall: '#faf6ee', band: '#e6decb', glass: '#76a8c8' },
-      { id: 'north', name: '忠孝樓', sub: '北側教學大樓', x0: -2.6, x1: 44.9, z0: -21.1, z1: -6.6, floors: 4, wall: '#f2f6ec', band: '#d6e0c6', glass: '#74a8b4', roofCol: '#9aa4ae' },
-      { id: 'link', x0: -9.8, x1: -2.6, z0: -23.8, z1: -7.9, floors: 2, wall: '#f5f1e6', band: '#e0d8c8', glass: '#7ea8c0' },
-      { id: 'eastN', name: '仁愛樓', sub: '東側北棟教室', x0: 44.1, x1: 58.1, z0: -79.2, z1: -16.4, floors: 4, wall: '#f8f5ed', band: '#dfe6d2', glass: '#76a8b2' },
-      { id: 'eastS', name: '信義樓', sub: '東側南棟教室', x0: 46.2, x1: 59.4, z0: -16.4, z1: 48.8, floors: 4, wall: '#f8f5ed', band: '#dfe6d2', glass: '#76a8b2' },
-      { id: 'eastX', name: '和平樓', sub: '創校第一期校舍', x0: 27.7, x1: 46.2, z0: 4.0, z1: 27.7, floors: 4, wall: '#f0f6e6', band: '#d2e2be', glass: '#76a8b2', color: true },
-      { id: 'mapHouse', name: '臺灣地圖屋頂', sub: '專科與幼兒園教室', x0: -2.6, x1: 10.6, z0: 37, z1: 62, floors: 2, wall: '#f6efe0', band: '#e4d6bc', glass: '#7ea8c0', roofTex: 'taiwan' },
-      { id: 'south', name: '實踐樓', sub: '南側教學大樓', x0: -9.2, x1: 57.3, z0: 62, z1: 79.2, floors: 4, wall: '#eef5e4', band: '#cee0bc', glass: '#76a8b2', color: true },
-      { id: 'sw', name: '力行樓', sub: '西南教學大樓', x0: -49.4, x1: -8.7, z0: 63, z1: 75.2, floors: 3, wall: '#ecf2e0', band: '#cedac0', glass: '#76a6ac', roofCol: '#8e98a4' },
-      { id: 'west', name: '自強樓', sub: '西側教學大樓', x0: -61.5, x1: -49.4, z0: 31.7, z1: 81.8, floors: 4, wall: '#e2f0d8', band: '#c2d8b4', glass: '#6fa0a8', roofCol: '#848e98', color: true }
+      { id: 'mingde', name: '明德樓', sub: '行政大樓', x0: -56.8, x1: -9.8, z0: -31.2, z1: -4.0, floors: 4, roof: 'glassVault', wall: '#f5e8d6', band: '#dfbfa2', glass: '#4b86b4', roofCol: '#4b86b4' },
+      { id: 'north', name: '忠孝樓', sub: '北側校舍', x0: -2.6, x1: 44.9, z0: -21.1, z1: -6.6, floors: 3, roof: 'glassVault', wall: '#f5e8d6', band: '#dfbfa2', glass: '#4b86b4', roofCol: '#4b86b4' },
+      { id: 'link', x0: -9.8, x1: -2.6, z0: -23.8, z1: -7.9, floors: 2, wall: '#f2e2ce', band: '#d8b494', glass: '#4b86b4', roofCol: '#c87d55' },
+      { id: 'eastN', name: '仁愛樓', sub: '東側北棟', x0: 44.1, x1: 58.1, z0: -79.2, z1: -16.4, floors: 3, wall: '#f5e8d6', band: '#dfbfa2', glass: '#4b86b4', roofCol: '#c87d55' },
+      { id: 'eastS', name: '信義樓', sub: '東側南棟', x0: 46.2, x1: 59.4, z0: -16.4, z1: 48.8, floors: 3, wall: '#f5e8d6', band: '#dfbfa2', glass: '#4b86b4', roofCol: '#c87d55' },
+      { id: 'eastX', name: '和平樓', sub: '第一期校舍', x0: 27.7, x1: 46.2, z0: 4.0, z1: 27.7, floors: 3, wall: '#f2e2ce', band: '#d8b494', glass: '#4b86b4', roofCol: '#d98a3c' },
+      { id: 'mapHouse', name: '臺灣地圖屋頂', sub: '專科教室', x0: -2.6, x1: 10.6, z0: 37, z1: 62, floors: 2, wall: '#f5e8d6', band: '#dfbfa2', glass: '#4b86b4', roofTex: 'taiwan' },
+      { id: 'south', name: '實踐樓', sub: '南側校舍', x0: -9.2, x1: 57.3, z0: 62, z1: 79.2, floors: 3, wall: '#f5e8d6', band: '#dfbfa2', glass: '#4b86b4', roofCol: '#c87d55' },
+      { id: 'sw', name: '力行樓', sub: '西南校舍', x0: -49.4, x1: -8.7, z0: 63, z1: 75.2, floors: 3, wall: '#f2e2ce', band: '#d8b494', glass: '#4b86b4', roofCol: '#c87d55' },
+      { id: 'west', name: '自強樓', sub: '西側校舍', x0: -61.5, x1: -49.4, z0: 31.7, z1: 81.8, floors: 3, wall: '#f5e8d6', band: '#dfbfa2', glass: '#4b86b4', roofCol: '#c87d55' }
     ],
     towers: [
       { x: 43.5, z: 47, r: 2.3, h: 15, name: '旋轉樓梯' },
@@ -85,12 +85,8 @@
     return m;
   }
 
-  function addEdgeInk(mesh, threshold = 28) {
-    try {
-      const eg = new T.EdgesGeometry(mesh.geometry, threshold);
-      const lines = new T.LineSegments(eg, wcLineMat);
-      mesh.add(lines);
-    } catch (e) { }
+  function addEdgeInk(mesh) {
+    // 截圖 Q 版圓潤玩具島嶼風格：不使用任何幾何鐵絲邊線，保持純淨光滑積木質感！
     return mesh;
   }
 
@@ -874,25 +870,25 @@
    * --------------------------------------------------------------------- */
   const TIME_PRESETS = [
     {
-      name: '晨曦水彩',
-      top: '#78b8e8', mid: '#bce0f8', bot: '#f7efe2',
-      hemiSky: 0xeaf4ff, hemiGnd: 0xdfd3c3, hemiInt: 1.05,
-      sunCol: 0xfff7e8, sunInt: 1.55, sunPos: [-65, 138, 72],
-      exposure: 1.02
-    },
-    {
-      name: '午後暖陽',
-      top: '#64ace2', mid: '#b0daf6', bot: '#f9f3e8',
-      hemiSky: 0xedf6ff, hemiGnd: 0xe5dacb, hemiInt: 1.08,
-      sunCol: 0xfffaee, sunInt: 1.62, sunPos: [-35, 165, 45],
+      name: '晴朗歐式花園',
+      top: '#1e7cd4', mid: '#58b4f0', bot: '#a2defa',
+      hemiSky: 0xdff2ff, hemiGnd: 0x7cb855, hemiInt: 1.15,
+      sunCol: 0xfff8eb, sunInt: 1.68, sunPos: [-55, 138, 72],
       exposure: 1.04
     },
     {
-      name: '夕陽水彩',
-      top: '#6c82b8', mid: '#efb092', bot: '#fde2b2',
-      hemiSky: 0xffe4cc, hemiGnd: 0xb89c8e, hemiInt: 0.96,
-      sunCol: 0xffb870, sunInt: 1.68, sunPos: [-95, 78, 88],
-      exposure: 1.00
+      name: '午後暖陽莊園',
+      top: '#2570c4', mid: '#6cbcf2', bot: '#f5ebd6',
+      hemiSky: 0xedf6ff, hemiGnd: 0x88b462, hemiInt: 1.18,
+      sunCol: 0xfff3dc, sunInt: 1.72, sunPos: [-35, 155, 50],
+      exposure: 1.06
+    },
+    {
+      name: '夕陽金色溫室',
+      top: '#3b5c9c', mid: '#e89c72', bot: '#fadd9e',
+      hemiSky: 0xffe4cc, hemiGnd: 0x8a7c68, hemiInt: 1.02,
+      sunCol: 0xffb86c, sunInt: 1.65, sunPos: [-85, 85, 85],
+      exposure: 1.02
     }
   ];
 
@@ -905,9 +901,9 @@
       const m = new T.ShaderMaterial({
         side: T.BackSide,
         uniforms: {
-          top: { value: new T.Color('#78b8e8') },
-          mid: { value: new T.Color('#d8ecfc') },
-          bot: { value: new T.Color('#e2d9cc') }
+          top: { value: new T.Color('#1e7cd4') },
+          mid: { value: new T.Color('#68bef4') },
+          bot: { value: new T.Color('#e8dec8') }
         },
         vertexShader: `varying vec3 vP; void main(){ vP=normalize(position); gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.); }`,
         fragmentShader: `uniform vec3 top; uniform vec3 mid; uniform vec3 bot; varying vec3 vP;
@@ -946,81 +942,40 @@
     return P.name;
   }
 
-  function buildSky(url) {
-    const skyGeo = new T.SphereGeometry(950, 32, 20);
+  function buildSky() {
+    // 截圖同款：深邃寶石藍至清透天藍的漸層晴空 (#1e7cd4 -> #a2defa)
+    const skyGeo = new T.SphereGeometry(520, 32, 20);
     const skyMat = W.skyMat = new T.ShaderMaterial({
       side: T.BackSide, depthWrite: false, fog: false,
       uniforms: {
-        top: { value: new T.Color('#78b8e8') },
-        mid: { value: new T.Color('#bce0f8') },
-        bot: { value: new T.Color('#f7efe2') }
+        top: { value: new T.Color('#1e7cd4') },
+        mid: { value: new T.Color('#58b4f0') },
+        bot: { value: new T.Color('#a2defa') }
       },
       vertexShader: `varying vec3 vP; void main(){ vP=normalize(position); gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);} `,
       fragmentShader: `uniform vec3 top; uniform vec3 mid; uniform vec3 bot; varying vec3 vP;
         void main(){
           float h=vP.y;
-          vec3 c = h>0.10 ? mix(mid,top,smoothstep(0.10,0.68,h)) : mix(bot,mid,smoothstep(-0.08,0.10,h));
+          vec3 c = h>0.10 ? mix(mid,top,smoothstep(0.10,0.68,h)) : mix(bot,mid,smoothstep(-0.05,0.10,h));
           gl_FragColor=vec4(c,1.);
 #include <colorspace_fragment>
 }`
     });
     W.scene.add(new T.Mesh(skyGeo, skyMat));
 
-    const R = 242;
-    const panoMat = W.panoMat = new T.ShaderMaterial({
-      transparent: true, depthWrite: false, fog: false, side: T.BackSide,
-      uniforms: {
-        map: { value: null },
-        tint: { value: new T.Color('#ffffff') }
-      },
-      vertexShader: `varying vec2 vUv; void main(){ vUv=uv; gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);} `,
-      fragmentShader: `uniform sampler2D map; uniform vec3 tint; varying vec2 vUv;
-        void main(){
-          vec2 u = vec2(vUv.x*2.0, vUv.y);
-          u.x = abs(mod(u.x+1.0,2.0)-1.0);
-          u.x = 1.0-u.x;
-          vec4 c = texture2D(map, u);
-          // 上下邊緣以淡水彩柔邊漸層無縫融入天空與遠方草地！
-          float a = smoothstep(0.0, 0.14, vUv.y) * (1.0 - smoothstep(0.82, 1.0, vUv.y));
-          gl_FragColor = vec4(c.rgb * tint, a);
-#include <colorspace_fragment>
-}`
-    });
-    const setTex = (tex) => {
-      tex.colorSpace = T.SRGBColorSpace;
-      tex.minFilter = T.LinearMipmapLinearFilter;
-      tex.anisotropy = 8;
-      const img = tex.image, aspect = img.height / img.width;
-      const H = (Math.PI * R) * aspect;
-      const geo = new T.CylinderGeometry(R, R, H, 96, 1, true);
-      if (W.pano) { W.pano.geometry.dispose(); W.scene.remove(W.pano); }
-      panoMat.uniforms.map.value = tex;
-      const m = W.pano = new T.Mesh(geo, panoMat);
-      m.position.y = H / 2 - H * 0.18;
-      m.rotation.y = 0.7;
-      m.renderOrder = -1;
-      W.scene.add(m);
-    };
-    W.setSkyTexture = setTex;
-    const fallback = () => setTex(new T.CanvasTexture(paintFallbackSky()));
-    const finalUrl = (window.GAME_ASSETS && window.GAME_ASSETS.sky) || window.SKY_DATA_URI || url;
-    if (finalUrl && finalUrl.startsWith('data:')) {
-      const img = new Image();
-      img.onload = () => { const t = new T.Texture(img); t.needsUpdate = true; setTex(t); };
-      img.onerror = fallback;
-      img.src = finalUrl;
-    } else if (finalUrl) {
-      new T.TextureLoader().load(finalUrl, setTex, undefined, fallback);
-    } else fallback();
-  }
-
-  function paintFallbackSky() {
-    const c = document.createElement('canvas'); c.width = 2048; c.height = 868;
-    const x = c.getContext('2d');
-    const g = x.createLinearGradient(0, 0, 0, 868);
-    g.addColorStop(0, '#78b8e8'); g.addColorStop(0.55, '#bce0f8'); g.addColorStop(0.82, '#f5ece0'); g.addColorStop(1, '#dcecd2');
-    x.fillStyle = g; x.fillRect(0, 0, 2048, 868);
-    return c;
+    // 截圖背景同款：遠方柔順起伏的翠綠山丘環繞天際線 (Smooth Rolling Green Hills)！
+    const hillCols = ['#6ec238', '#62b630', '#76c840'];
+    for (let i = 0; i < 18; i++) {
+      const ang = (i / 18) * Math.PI * 2;
+      const dist = 205 + (i % 3) * 14;
+      const r = 48 + (i % 4) * 12;
+      const h = 24 + (i % 3) * 8;
+      const hill = M(new T.SphereGeometry(r, 24, 16, 0, Math.PI * 2, 0, Math.PI * 0.55), hillCols[i % 3], {
+        x: Math.cos(ang) * dist, y: -4, z: Math.sin(ang) * dist,
+        s: [1.45, h / r, 0.85], ry: -ang + Math.PI / 2,
+        cast: false, pbr: { roughness: 0.72, metalness: 0.0 }
+      });
+    }
   }
 
   function buildAtmosphereParticles() {
@@ -1165,49 +1120,36 @@
     }, { repeat: [rep, rep] });
   }
 
-  // 自然淡綠淡水彩草地貼圖 (套用 Nano Banana 2 生成之 grassNb2)
+  // 截圖同款：細膩豐潤的歐式庭園草坪貼圖 (#58a628)
   function grassTex(rep = [8, 8]) {
     const rArr = Array.isArray(rep) ? rep : [rep, rep];
-    const t = canvasTex(512, 512, (x, w, h) => {
-      x.fillStyle = '#cce8bf';
+    return canvasTex(256, 256, (x, w, h) => {
+      x.fillStyle = '#58a628';
       x.fillRect(0, 0, w, h);
-      const bladeCols = ['#b8ddb0', '#c4e4b8', '#d6eec8', '#a8d2a0', '#e2f2d6'];
-      x.lineCap = 'round';
-      for (let i = 0; i < 3200; i++) {
-        const bx = (i * 137.5) % w, by = (i * 293.7) % h, bh = 8 + (i % 10), bend = ((i % 9) - 4) * 1.2;
-        x.strokeStyle = bladeCols[i % bladeCols.length];
-        x.lineWidth = 1.8 + (i % 3) * 0.5;
-        x.beginPath(); x.moveTo(bx, by); x.quadraticCurveTo(bx + bend * 0.5, by - bh * 0.5, bx + bend, by - bh); x.stroke();
+      const blades = ['#4e9822', '#64b432', '#6ec038', '#468c1e'];
+      for (let i = 0; i < 900; i++) {
+        x.fillStyle = blades[i % blades.length];
+        x.fillRect((i * 73) % w, (i * 139) % h, 3, 5);
       }
     }, { repeat: rArr });
-    if (window.GAME_ASSETS && window.GAME_ASSETS.grassNb2) {
-      const img = new Image();
-      img.onload = () => {
-        const ctx = t.image.getContext('2d');
-        ctx.drawImage(img, 0, 0, 512, 512);
-        t.needsUpdate = true;
-      };
-      img.src = window.GAME_ASSETS.grassNb2;
-    }
-    return t;
   }
 
-  // 淡水彩暖色石板磚貼圖 (套用 Nano Banana 2 生成之 paveNb2，磚縫使用淡暖褐水彩，絕不用黑線)
-  function paveTex(base, line, rep, useNb2 = false) {
-    const t = canvasTex(512, 512, (x, w, h) => {
-      x.fillStyle = base; x.fillRect(0, 0, w, h);
-      const rows = 6, cols = 6, tw = w / cols, th = h / rows;
+  // 截圖同款：溫潤米白／暖沙色歐式交錯石板地磚 (#e6d7c0 搭配 #c8b69c 磚縫)
+  function paveTex(base = '#e6d7c0', line = '#c8b69c', rep = [12, 12]) {
+    return canvasTex(256, 256, (x, w, h) => {
+      x.fillStyle = base;
+      x.fillRect(0, 0, w, h);
+      const rows = 4, cols = 4, tw = w / cols, th = h / rows;
       for (let r = 0; r < rows; r++) {
         const off = (r % 2) * (tw / 2);
         for (let c = -1; c <= cols; c++) {
           const tx = c * tw + off, ty = r * th;
-          const delta = (((r * 13 + c * 7) & 7) - 3.5) * 3.0;
-          x.fillStyle = delta > 0 ? `rgba(255,252,245,${delta * 0.015})` : `rgba(160,140,120,${-delta * 0.015})`;
+          x.fillStyle = ((r + c) & 1) ? 'rgba(255,252,245,0.18)' : 'rgba(180,155,125,0.10)';
           x.fillRect(tx + 2, ty + 2, tw - 4, th - 4);
         }
       }
       x.strokeStyle = line;
-      x.lineWidth = 2.2;
+      x.lineWidth = 3;
       for (let r = 0; r <= rows; r++) {
         x.beginPath(); x.moveTo(0, r * th); x.lineTo(w, r * th); x.stroke();
       }
@@ -1219,36 +1161,15 @@
         }
       }
     }, { repeat: [rep[0], rep[1]] });
-
-    if (useNb2 && window.GAME_ASSETS && window.GAME_ASSETS.paveNb2) {
-      const img = new Image();
-      img.onload = () => {
-        const ctx = t.image.getContext('2d');
-        ctx.drawImage(img, 0, 0, 512, 512);
-        t.needsUpdate = true;
-      };
-      img.src = window.GAME_ASSETS.paveNb2;
-    }
-    return t;
   }
 
   let _leafClusterTex = null;
   function getLeafClusterTex() {
     if (_leafClusterTex) return _leafClusterTex;
-    _leafClusterTex = canvasTex(512, 512, (x, w, h) => {
-      x.fillStyle = '#88c980';
+    _leafClusterTex = canvasTex(256, 256, (x, w, h) => {
+      x.fillStyle = '#4c9824';
       x.fillRect(0, 0, w, h);
-      const leafCols = ['#74b86c', '#82c478', '#98d48c', '#ace09e', '#bfeaa8', '#68ac62'];
-      for (let i = 0; i < 2200; i++) {
-        const lx = (i * 97) % w, ly = (i * 163) % h;
-        const ang = (i * 0.7) % Math.PI;
-        const rx = 8 + (i % 9), ry = 5 + (i % 5);
-        x.fillStyle = leafCols[i % leafCols.length];
-        x.beginPath();
-        x.ellipse(lx, ly, rx, ry, ang, 0, Math.PI * 2);
-        x.fill();
-      }
-    }, { repeat: [2, 2] });
+    });
     return _leafClusterTex;
   }
 
@@ -1265,175 +1186,80 @@
    * 遠方草皮「淡水彩放射狀柔邊淡出 Shader」（徹底消除遠方低階重複貼圖感，與水彩遠景無縫融合）
    * ===================================================================== */
   function buildGround() {
-    const wcGrassTex = grassTex([16, 16]);
-    const groundMat = new T.ShaderMaterial({
-      uniforms: {
-        uMap: { value: wcGrassTex },
-        uInnerCol: { value: new T.Color('#cde6c0') },
-        uMidCol: { value: new T.Color('#dcecd0') },
-        uOuterCol: { value: new T.Color('#f4efe2') }
-      },
-      vertexShader: `
-        varying vec2 vUv;
-        varying vec3 vWorldPos;
-        void main() {
-          vUv = uv * 28.0;
-          vec4 wp = modelMatrix * vec4(position, 1.0);
-          vWorldPos = wp.xyz;
-          gl_Position = projectionMatrix * viewMatrix * wp;
-        }
-      `,
-      fragmentShader: `
-        uniform sampler2D uMap;
-        uniform vec3 uInnerCol;
-        uniform vec3 uMidCol;
-        uniform vec3 uOuterCol;
-        varying vec2 vUv;
-        varying vec3 vWorldPos;
-        void main() {
-          float d = length(vWorldPos.xz);
-          vec3 texCol = texture2D(uMap, vUv).rgb;
-          // 近處保留細膩淡水彩草紋，超過 95m 後平滑過渡為柔和淡水彩筆觸暈染並淡出至天際米白！
-          float fadeTex = smoothstep(62.0, 130.0, d);
-          float fadeHorizon = smoothstep(120.0, 238.0, d);
-          float wave = sin(vWorldPos.x * 0.035) * cos(vWorldPos.z * 0.035) * 0.5 + 0.5;
-          vec3 wcWash = mix(uInnerCol, uMidCol, wave);
-          vec3 col = mix(texCol, wcWash, fadeTex);
-          col = mix(col, uOuterCol, fadeHorizon);
-          gl_FragColor = vec4(col, 1.0);
-#include <colorspace_fragment>
-        }
-      `
-    });
-    const g = new T.Mesh(new T.CircleGeometry(255, 64), groundMat);
+    // 截圖同款：飽滿翠綠的歐式莊園連續草坪大地 (#58a628)，緊湊延伸至遠方翠綠山丘！
+    const g = new T.Mesh(new T.CircleGeometry(245, 64), pbr('#ffffff', { map: grassTex([36, 36]), roughness: 0.68 }));
     g.rotation.x = -Math.PI / 2;
-    g.position.y = -0.05;
+    g.position.y = -0.04;
     g.receiveShadow = true;
     W.scene.add(g);
   }
 
   function roadTex(lanes, vertical) {
-    return canvasTex(512, 512, (x, w, h) => {
-      // 柔和暖灰水彩柏油路面（不用死黑）
-      x.fillStyle = '#7c8594'; x.fillRect(0, 0, w, h);
-      for (let i = 0; i < 1800; i++) {
-        x.fillStyle = (i & 1) ? 'rgba(255,255,255,0.05)' : 'rgba(90,100,115,0.06)';
-        x.fillRect((i * 113) % w, (i * 197) % h, 3, 3);
-      }
-      x.fillStyle = '#f8fafc';
+    return canvasTex(256, 256, (x, w, h) => {
+      // 歐式石板大道色調 (#8a8278)
+      x.fillStyle = '#8a8278'; x.fillRect(0, 0, w, h);
+      x.fillStyle = '#f5efe6';
       for (let i = 1; i < lanes; i++) {
         const p = i * (vertical ? w : h) / lanes;
-        for (let k = 0; k < 4; k++) vertical ? x.fillRect(p - 3, k * 128 + 16, 6, 60) : x.fillRect(k * 128 + 16, p - 3, 60, 6);
+        for (let k = 0; k < 4; k++) vertical ? x.fillRect(p - 2, k * 64 + 10, 4, 30) : x.fillRect(k * 64 + 10, p - 2, 30, 4);
       }
-      x.fillStyle = '#f6c453';
-      vertical ? x.fillRect(w / 2 - 4, 0, 8, h) : x.fillRect(0, h / 2 - 4, w, 8);
     });
   }
 
   /* =====================================================================
-   * 信義區周邊道路、王大閎建築師「實景國父紀念館」、臺北 101、臺北大巨蛋
+   * 緊湊周邊道路、東側「國立國父紀念館」與北側「臺北大巨蛋」（歐式暖沙石與古典琉璃風格）
    * ===================================================================== */
   function buildSurroundings() {
     const C = LAYOUT.campus;
-    const zt = roadTex(8, false); zt.wrapS = T.RepeatWrapping; zt.repeat.set(7, 1);
-    flat(240, 30, pbr('#ffffff', { map: zt, roughness: 0.80 }), 10, C.z0 - 21, 0.01);
-    flat(240, 6, pbr('#ffffff', { map: paveTex('#ebe3d4', '#cbbca8', [45, 1]), roughness: 0.78 }), 10, C.z0 - 3, 0.02);
-    flat(240, 6, pbr('#ebe3d4', { roughness: 0.8 }), 10, C.z0 - 39, 0.02);
+    const zt = roadTex(4, false); zt.wrapS = T.RepeatWrapping; zt.repeat.set(6, 1);
+    flat(162, 14, pbr('#ffffff', { map: zt, roughness: 0.70 }), -6, C.z0 - 13, 0.04);
 
-    [[-30, C.z0 - 4], [30, C.z0 - 4]].forEach(([x, z]) => {
-      M(box(4.4, 2.8, 2.6), '#bce0f8', {
-        x, y: 1.4, z, edge: 28,
-        mat: new T.MeshPhysicalMaterial({ color: '#bce0f8', roughness: 0.15, transmission: 0.55, transparent: true, opacity: 0.85 })
-      });
-      M(box(5.0, 0.32, 3.2), '#589ce0', { x, y: 2.9, z, edge: 28, pbr: { metalness: 0.3, roughness: 0.4 } });
-    });
+    const gt = roadTex(4, true); gt.wrapT = T.RepeatWrapping; gt.repeat.set(1, 6);
+    flat(14, 196, pbr('#ffffff', { map: gt, roughness: 0.70 }), C.x0 - 13, 0, 0.045);
+    for (let i = 0; i < 7; i++) flat(12, 1.1, pbr('#f5efe6', { roughness: 0.5 }), C.x0 - 13, 8 + i * 2.2, 0.06);
+    flat(124, 14, pbr('#e6d7c0', { roughness: 0.70 }), 0, C.z1 + 10, 0.04);
 
-    const gt = roadTex(6, true); gt.wrapT = T.RepeatWrapping; gt.repeat.set(1, 7);
-    flat(24, 230, pbr('#ffffff', { map: gt, roughness: 0.80 }), C.x0 - 17, 0, 0.012);
-    flat(4, 230, pbr('#ffffff', { map: paveTex('#ebe3d4', '#cbbca8', [1, 45]), roughness: 0.78 }), C.x0 - 3, 0, 0.022);
-    flat(5, 230, pbr('#ebe3d4', { roughness: 0.78 }), C.x0 - 31.5, 0, 0.022);
-    for (let i = 0; i < 9; i++) flat(22, 1.05, pbr('#f8fafc', { roughness: 0.6 }), C.x0 - 17, 8 + i * 2, 0.03);
-
-    const pk = canvasTex(512, 512, (x, w, h) => {
-      x.fillStyle = '#8a94a6'; x.fillRect(0, 0, w, h);
-      x.fillStyle = '#f8fafc';
-      for (let i = 0; i <= 8; i++) x.fillRect(i * 64, 0, 5, 220);
-      for (let i = 0; i <= 8; i++) x.fillRect(i * 64, 292, 5, 220);
-    }, { repeat: [6, 2] });
-    flat(130, 46, pbr('#ffffff', { map: pk, roughness: 0.8 }), 0, C.z1 + 29, 0.015);
-    flat(130, 6, pbr('#ebe3d4'), 0, C.z1 + 3, 0.022);
-
-    // ==================== 學校東側：王大閎建築師設計之「國立國父紀念館」實景造型重製 ====================
-    // 實景特色：寬廣花崗岩基座與西側大階梯、四周 14 根白色斬石子弧角廊柱（柱頂向外彎曲托起屋簷）、
-    // 單層巨型覆金黃色琉璃瓦歇山式大屋頂、以及正門中央高高掀起的「飛簷門廊」與前方翠湖景觀！
+    // ==================== 學校東側：王大閎建築師設計之「國立國父紀念館」（歐式暖米白沙石＋金橘瓦頂） ====================
     const hall = G(null, 128, 0, 10);
-    addContactShadow(hall, 62, 0.03, 0.55);
-    // 1. 寬闊淺灰白花崗岩三層台基與西側迎賓大階梯（面向光復國小 -X 方向）
-    M(box(106, 1.4, 106), '#e8e2d6', { y: 0.7, parent: hall, edge: 28, pbr: { roughness: 0.72 } });
-    M(box(96, 1.4, 96), '#f0ebe0', { y: 2.1, parent: hall, edge: 28, pbr: { roughness: 0.68 } });
-    for (let st = 0; st < 6; st++) {
-      M(box(2.2, 0.45, 36 - st * 1.2), '#e5dfd2', { x: -48 - st * 1.1, y: 0.22 + st * 0.42, parent: hall });
+    addContactShadow(hall, 48, 0.03, 0.55);
+    M(box(84, 1.4, 84), '#e8d8c2', { y: 0.7, parent: hall });
+    M(box(76, 1.4, 76), '#f5ead8', { y: 2.1, parent: hall });
+    for (let st = 0; st < 5; st++) {
+      M(box(2.2, 0.45, 30 - st * 1.2), '#efe0ca', { x: -40 - st * 1.1, y: 0.22 + st * 0.42, parent: hall });
     }
-    // 2. 大禮堂主體牆面（米白斬石子搭配古銅色直櫺玻璃窗）
-    const sysWallTex = canvasTex(512, 256, (x, w, h) => {
-      x.fillStyle = '#f5f1e6'; x.fillRect(0, 0, w, h);
-      for (let i = 0; i < 16; i++) {
-        x.fillStyle = '#8c7862';
-        x.fillRect(i * 32 + 8, 28, 16, 196);
-        x.fillStyle = '#a8c6d8';
-        x.fillRect(i * 32 + 10, 32, 12, 188);
-      }
-    });
-    M(box(74, 16.5, 74), '#f5f1e6', { y: 11.0, parent: hall, edge: 28, mat: pbr('#ffffff', { map: sysWallTex, roughness: 0.6 }) });
-
-    // 3. 四周白色斬石子巨型廊柱群（含柱礎與頂部向外彎曲之現代主義飛扶壁托臂）
+    M(box(58, 15.5, 58), '#f5ead8', { y: 10.5, parent: hall });
     const colPts = [];
-    for (let i = 0; i < 8; i++) {
-      const offset = -38.5 + i * 11.0;
-      [-43.5, 43.5].forEach(side => {
-        colPts.push([128 + offset, 11.2, 10 + side]);
-        colPts.push([128 + side, 11.2, 10 + offset]);
+    for (let i = 0; i < 7; i++) {
+      const offset = -30 + i * 10.0;
+      [-34, 34].forEach(side => {
+        colPts.push([128 + offset, 10.5, 10 + side]);
+        colPts.push([128 + side, 10.5, 10 + offset]);
       });
     }
-    instBoxes(colPts, box(2.1, 17.0, 2.1), '#faf7f0');
+    instBoxes(colPts, box(2.1, 16.0, 2.1), '#faf3e8');
 
-    // 4. 單層巨型覆金黃色琉璃瓦歇山式斜屋頂（絕對不是雙層八角塔！）
-    const goldRoofMat = pbr('#f2b63d', { roughness: 0.42, metalness: 0.12 });
-    // 下層寬大挑簷飛簷底座（微向上翹曲的四面屋簷）
-    M(box(98, 1.3, 98), '#f5be48', { y: 19.8, parent: hall, edge: 28, mat: goldRoofMat });
-    // 主歇山四坡屋頂（截頂四角錐台）
-    M(new T.CylinderGeometry(34, 71, 10.5, 4), '#f2b63d', {
-      y: 25.4, ry: Math.PI / 4, s: [1.0, 1.0, 1.0], parent: hall, edge: 25, mat: goldRoofMat
+    const goldRoofMat = pbr('#e59838', { roughness: 0.38, metalness: 0.08 });
+    M(box(80, 1.4, 80), '#d98a30', { y: 18.8, parent: hall, mat: goldRoofMat });
+    M(new T.CylinderGeometry(28, 56, 9.5, 4), '#e59838', {
+      y: 24.0, ry: Math.PI / 4, parent: hall, mat: goldRoofMat
     });
-    // 屋頂正脊與兩端翹脊吻獸意象
-    M(box(12, 2.2, 48), '#f7c852', { y: 31.0, parent: hall, edge: 25, mat: goldRoofMat });
-    [-24, 24].forEach(rz => {
-      M(new T.ConeGeometry(2.2, 4.2, 4), '#f7c852', { y: 32.8, z: rz, rx: rz > 0 ? 0.35 : -0.35, ry: Math.PI / 4, parent: hall, mat: goldRoofMat });
-    });
-
-    // 5. 王大閎最著名的設計亮點：西側正門與東側中央「高高掀起的倒 V 形飛簷門廊」！
+    M(box(10, 2.2, 38), '#f0a646', { y: 29.0, parent: hall, mat: goldRoofMat });
     [-1, 1].forEach(sideX => {
-      const canopyG = G(hall, sideX * 44.5, 21.5, 0);
-      // 掀起的金黃琉璃瓦飛簷翼板
-      M(box(14, 1.1, 28), '#f5be48', { y: 3.6, rz: sideX * -0.28, parent: canopyG, edge: 25, mat: goldRoofMat });
-      M(new T.ConeGeometry(16, 6.2, 3), '#f2b63d', { x: sideX * 2.5, y: 4.8, ry: sideX > 0 ? 0 : Math.PI, s: [0.65, 1, 1.45], parent: canopyG, mat: goldRoofMat });
-      // 門廊下方懸掛之「國父紀念館」白底金字匾額
-      M(box(1.2, 3.2, 12.5), '#faf7f0', { x: -sideX * 2.2, y: 0.4, parent: canopyG, edge: 25 });
+      const canopyG = G(hall, sideX * 35.5, 20.2, 0);
+      M(box(12, 1.2, 24), '#e59838', { y: 3.2, rz: sideX * -0.28, parent: canopyG, mat: goldRoofMat });
+      M(new T.ConeGeometry(14, 5.5, 3), '#d98a30', { x: sideX * 2.2, y: 4.4, ry: sideX > 0 ? 0 : Math.PI, s: [0.65, 1, 1.4], parent: canopyG, mat: goldRoofMat });
+      M(box(1.2, 3.0, 11.0), '#faf3e8', { x: -sideX * 2.0, y: 0.4, parent: canopyG });
     });
+    addLabel('國立國父紀念館\n王大閎建築師設計', 128, 38, 10);
 
-    // 國父紀念館前方中山公園步道與翠湖水景
-    flat(16, 86, pbr('#ebe3d4', { roughness: 0.72 }), 70, 10, 0.03);
-    const cuiLake = new T.Mesh(new T.CircleGeometry(14, 36), pbr('#8fd4e8', { roughness: 0.18, metalness: 0.1 }));
-    cuiLake.rotation.x = -Math.PI / 2; cuiLake.position.set(78, 0.05, 52); W.scene.add(cuiLake);
-    addLabel('國立國父紀念館\n王大閎建築師設計', 128, 42, 10);
-
-    // 北側緊鄰光復國小與國父紀念館之「臺北大巨蛋」實景巨蛋建築（緊湊配置於校園北側）
+    // ==================== 學校北側：「臺北大巨蛋」（古典玻璃金屬肋條巨蛋風格，與溫室穹頂呼應！） ====================
     const domeTpe = G(null, -24, 0, C.z0 - 78);
-    M(cyl(44, 48, 13, 36), '#dbe2ea', { y: 6.5, s: [1.32, 1, 0.92], parent: domeTpe, pbr: { metalness: 0.35, roughness: 0.35 } });
-    M(new T.SphereGeometry(44, 36, 18, 0, Math.PI * 2, 0, Math.PI / 2), '#edf2f7', {
-      y: 13, s: [1.32, 0.36, 0.92], parent: domeTpe, pbr: { metalness: 0.4, roughness: 0.3 }
+    M(cyl(40, 44, 12, 36), '#f0e2ce', { y: 6.0, s: [1.3, 1, 0.9], parent: domeTpe, pbr: { roughness: 0.45 } });
+    M(cyl(41, 41, 1.8, 36), '#dfbfa2', { y: 11.2, s: [1.31, 1, 0.91], parent: domeTpe });
+    M(new T.SphereGeometry(40, 36, 18, 0, Math.PI * 2, 0, Math.PI / 2), '#5b96c6', {
+      y: 12, s: [1.3, 0.38, 0.9], parent: domeTpe, pbr: { roughness: 0.25, metalness: 0.35 }
     });
-    addLabel('臺北大巨蛋', -24, 36, C.z0 - 78);
+    addLabel('臺北大巨蛋', -24, 34, C.z0 - 78);
   }
 
   /* =====================================================================
@@ -1597,7 +1423,7 @@
     const carCols = ['#f28482', '#72bef5', '#84a59d', '#f8fafc', '#b8b8ff', '#f6bd60'];
     for (let i = 0; i < 8; i++) {
       const dir = i % 2 === 0 ? 1 : -1;
-      const laneX = (C.x0 - 17) + (dir > 0 ? 4.2 : -4.2) + (i % 4 < 2 ? dir * 3.6 : 0);
+      const laneX = (C.x0 - 14) + (dir > 0 ? 4.2 : -4.2) + (i % 4 < 2 ? dir * 3.6 : 0);
       const isBus = i === 0;
       const isTaxi = i === 3 || i === 6;
       const m = makeCar(carCols[i % carCols.length], isBus, isTaxi);
@@ -1607,7 +1433,7 @@
     const scootCols = ['#72bef5', '#f28482', '#f6bd60', '#84a59d', '#ffffff', '#b8b8ff'];
     for (let i = 0; i < 6; i++) {
       const dir = i % 2 === 0 ? 1 : -1;
-      const laneX = (C.x0 - 17) + dir * 9.6;
+      const laneX = (C.x0 - 14) + dir * 9.6;
       const m = makeScooter(scootCols[i % scootCols.length], scootCols[(i + 2) % scootCols.length]);
       m.rotation.y = dir > 0 ? 0 : Math.PI;
       vehicles.push({ m, axis: 'z', fixed: laneX, pos: -160 + i * 54, dir, speed: 12.8 + (i % 3) * 1.8, min: -110, max: 110 });
@@ -1622,7 +1448,7 @@
 
     for (let i = 0; i < 6; i++) {
       const dir = i % 2 === 0 ? 1 : -1;
-      const laneZ = (C.z0 - 21) + dir * (4.5 + (i % 2) * 4.2);
+      const laneZ = (C.z0 - 15) + dir * (4.5 + (i % 2) * 4.2);
       const m = makeCar(carCols[(i + 2) % carCols.length], i === 1, i === 4);
       m.rotation.y = dir > 0 ? Math.PI / 2 : -Math.PI / 2;
       vehicles.push({ m, axis: 'x', fixed: laneZ, pos: -180 + i * 62, dir, speed: 15.0 + (i % 3) * 2.2, min: -110, max: 110 });
@@ -1677,33 +1503,95 @@
    * ===================================================================== */
   function buildCampusGround() {
     const C = LAYOUT.campus, w = C.x1 - C.x0, d = C.z1 - C.z0;
-    const stoneBump = getStoneBump(28);
-    flat(w, d, pbr('#ffffff', {
-      map: paveTex('#ede6d8', '#cabba6', [w / 7, d / 7], false),
-      bumpMap: stoneBump, bumpScale: 0.012, roughness: 0.74
-    }), (C.x0 + C.x1) / 2, (C.z0 + C.z1) / 2, 0.03);
+    // 1. 截圖同款：全校暖米白／沙石色交錯石板地磚基底 (#e6d7c0) 與翠綠草坪分區
+    flat(w, d, pbr('#ffffff', { map: paveTex('#e6d7c0', '#cbb89e', [26, 36]), roughness: 0.58 }), (C.x0 + C.x1) / 2, (C.z0 + C.z1) / 2, 0.03);
 
-    const P = LAYOUT.plaza;
-    flat(P.x1 - P.x0, P.z1 - P.z0, pbr('#ffffff', {
-      map: paveTex('#f5eee0', '#d2c2ae', [(P.x1 - P.x0) / 5, (P.z1 - P.z0) / 5], true),
-      bumpMap: stoneBump, bumpScale: 0.010, roughness: 0.68
-    }), (P.x0 + P.x1) / 2, (P.z0 + P.z1) / 2, 0.045);
-
-    flat(44, 3.8, pbr('#ffffff', {
-      map: paveTex('#e49b7e', '#b8765c', [14, 2], false),
-      bumpMap: stoneBump, bumpScale: 0.015, roughness: 0.70
-    }), -39, 14, 0.06);
-
-    const planterGrassMat = pbr('#ffffff', { map: grassTex([10, 1]), roughness: 0.82 });
-    [-1, 1].forEach(s => {
-      M(box(40, 0.38, 2.2), '#e8dfd0', { x: -39, y: 0.19, z: 14 + s * 6.8, edge: 28 });
-      M(box(39.4, 0.42, 1.7), '#ffffff', { x: -39, y: 0.21, z: 14 + s * 6.8, mat: planterGrassMat });
+    // 2. 迎賓綠茵花園草坪區（讓米色步道蜿蜒穿梭於鮮亮修剪草坪之間，完全重現截圖構圖！）
+    [[-42, 4.5, 28, 7.5], [-42, 23.5, 28, 7.5], [-26, 28, 14, 9], [16, 4.5, 16, 8]].forEach(([gx, gz, gw, gd]) => {
+      flat(gw, gd, pbr('#ffffff', { map: grassTex([4, 2]), roughness: 0.65 }), gx, gz, 0.045);
     });
 
-    flat(w, 8, pbr('#ffffff', { map: grassTex([16, 2]), roughness: 0.82 }), (C.x0 + C.x1) / 2, C.z0 + 4, 0.04);
-    flat(6, 54, pbr('#ffffff', { map: grassTex([2, 10]), roughness: 0.82 }), C.x0 + 3, -58, 0.042);
-  }
+    // 3. 截圖圓樓溫室正前方兩側：「對稱長方形睡蓮水池（Rectangular Reflecting Lily Pools）」！
+    [[-12.5, 4.2, 13.5, 6.2], [-12.5, 27.4, 13.5, 6.2]].forEach(([px, pz, pw, pd]) => {
+      const pg = G(null, px, 0, pz);
+      // 暖米白石材池岸邊框
+      M(box(pw + 0.8, 0.36, pd + 0.8), '#e2cfb6', { y: 0.18, parent: pg });
+      M(box(pw, 0.38, pd), '#3898d8', { y: 0.20, parent: pg, pbr: { roughness: 0.15, metalness: 0.1, clearcoat: 0.85 } });
+      // 池中翠綠睡蓮葉與粉紅蓮花
+      for (let i = 0; i < 6; i++) {
+        const lx = (i - 2.5) * 1.9, lz = ((i % 2) - 0.5) * 2.2;
+        M(cyl(0.45, 0.45, 0.04, 16), '#65b832', { x: lx, y: 0.40, z: lz, parent: pg });
+        if (i % 2 === 0) M(sSph(0.16, 10, 8), '#f472b6', { x: lx + 0.08, y: 0.46, z: lz, parent: pg });
+      }
+    });
 
+    // 4. 截圖同款：「修剪整齊的立體倒角長方體綠籬牆（Manicured Boxwood Hedges）」！
+    const hedgeMat = pbr('#58a628', { roughness: 0.68 });
+    function addHedge(hx, hz, hw, hd, hh = 1.25, ry = 0) {
+      const m = M(box(hw, hh, hd), '#58a628', { x: hx, y: hh / 2, z: hz, ry, mat: hedgeMat });
+      // 頂部略縮的圓潤修剪層次
+      M(box(hw - 0.2, 0.18, hd - 0.2), '#68b832', { x: hx, y: hh + 0.08, z: hz, ry });
+      return m;
+    }
+    // 圓樓溫室入口兩側對稱迎賓綠籬（如同截圖溫室正門前兩道立體長綠籬！）
+    addHedge(-13.5, 9.8, 8.5, 1.65, 1.35, 0);
+    addHedge(-13.5, 21.8, 8.5, 1.65, 1.35, 0);
+    // 迎賓大道與花園周圍的修剪綠籬邊界
+    addHedge(-48, 7.8, 12, 1.2, 1.05, 0);
+    addHedge(-32, 7.8, 12, 1.2, 1.05, 0);
+    addHedge(-48, 20.2, 12, 1.2, 1.05, 0);
+    addHedge(-32, 20.2, 12, 1.2, 1.05, 0);
+
+    // 5. 截圖左側超精緻亮點：「米白圓形底座＋翠綠植物修剪綠雕梅花鹿（Green Topiary Deer Sculpture）」！
+    const deerG = G(null, -28.5, 0, 4.2);
+    M(cyl(1.85, 2.05, 0.42, 24), '#e8d8c2', { y: 0.21, parent: deerG });
+    M(cyl(1.45, 1.45, 0.46, 24), '#58a628', { y: 0.22, parent: deerG });
+    // 綠雕小鹿身體、四肢、修長脖頸、鹿頭與分叉鹿角
+    M(sSph(0.65, 16, 12), '#4e9c22', { y: 1.25, s: [1.35, 0.85, 0.75], parent: deerG });
+    [[-0.45, -0.25], [0.45, -0.25], [-0.45, 0.25], [0.45, 0.25]].forEach(([lx, lz]) => {
+      M(cyl(0.11, 0.09, 0.95, 10), '#468e1e', { x: lx, y: 0.65, z: lz, parent: deerG });
+    });
+    M(cyl(0.18, 0.24, 0.95, 12), '#4e9c22', { x: 0.62, y: 1.78, rz: -0.32, parent: deerG });
+    M(sSph(0.28, 14, 10), '#58a628', { x: 0.85, y: 2.25, s: [1.3, 0.85, 0.8], parent: deerG });
+    // 鹿脖子上的藍色與白色緞帶花圈（如截圖細節！）
+    M(new T.TorusGeometry(0.23, 0.055, 8, 16), '#3b82f6', { x: 0.56, y: 1.55, ry: Math.PI / 2, rx: 0.3, parent: deerG });
+    [-0.16, 0.16].forEach(az => {
+      tube(deerG, v(0.82, 2.42, az), v(0.65, 3.05, az * 2.2), 0.04, '#65b832');
+      tube(deerG, v(0.74, 2.75, az * 1.6), v(0.92, 2.98, az * 2.0), 0.032, '#65b832');
+    });
+
+    // 6. 截圖同款：「古典米白石雕矮燈柱（Classical Baluster Stone Lantern Posts）」與「橘黃玫瑰花球叢（Orange Rose Bushes）」！
+    const roseBushes = [
+      [-52, 8.8], [-40, 8.8], [-24, 8.8], [-17.5, 9.8],
+      [-52, 19.2], [-40, 19.2], [-24, 19.2], [-17.5, 21.8],
+      [-8, 32], [4, 32], [16, 32]
+    ];
+    roseBushes.forEach(([rx, rz], idx) => {
+      const rg = G(null, rx, 0, rz);
+      // 濃密深綠圓灌木叢
+      M(sSph(0.68, 14, 12), '#469220', { y: 0.55, s: [1.1, 0.9, 1.1], parent: rg });
+      // 鑲嵌截圖標誌性的飽滿橘色與金黃色玫瑰花朵球
+      const rCols = ['#f97316', '#fb923c', '#facc15', '#ec4899'];
+      for (let k = 0; k < 7; k++) {
+        const a = (k / 7) * Math.PI * 2 + idx;
+        const el = 0.25 + (k % 3) * 0.25;
+        M(sSph(0.16, 10, 8), rCols[(k + idx) % rCols.length], {
+          x: Math.cos(a) * Math.cos(el) * 0.66,
+          y: 0.55 + Math.sin(el) * 0.58,
+          z: Math.sin(a) * Math.cos(el) * 0.66,
+          parent: rg
+        });
+      }
+      // 每隔兩叢配置一座截圖中的米白石雕矮燈柱
+      if (idx % 2 === 0) {
+        const lp = G(null, rx + 1.35, 0, rz);
+        M(box(0.48, 0.35, 0.48), '#dfd0ba', { y: 0.175, parent: lp });
+        M(cyl(0.16, 0.22, 0.65, 12), '#ece0ce', { y: 0.65, parent: lp });
+        M(sSph(0.24, 12, 10), '#fff8e7', { y: 1.12, parent: lp });
+        M(new T.ConeGeometry(0.22, 0.20, 12), '#d6c4aa', { y: 1.34, parent: lp });
+      }
+    });
+  }
   function buildTrack() {
     const Tk = LAYOUT.track, R = Tk.wid / 2, L = (Tk.len - Tk.wid) / 2;
     const px = 1024 / Tk.len, H = Math.round(Tk.wid * px);
@@ -1906,65 +1794,84 @@
   /* =====================================================================
    * 校舍建築群、修澤蘭圓樓（移除圓樓上文字牌匾）、圓樓前方〈水袖〉雕塑與兩側「光」「復」二字
    * ===================================================================== */
-  function winTex(cols, floors, wall, glass, band, accent) {
+  function winTex(cols, floors, wall, glass, band) {
     return canvasTex(cols * 64, floors * 96, (x, w, h) => {
+      // 截圖同款：古典歐式米白沙石牆面 ＋ 赤陶暖棕拱形窗框 ＋ 格柵採光玻璃窗！
       x.fillStyle = wall; x.fillRect(0, 0, w, h);
-      x.fillStyle = 'rgba(160, 145, 125, 0.06)';
-      for (let y = 0; y < h; y += 8) x.fillRect(0, y, w, 1.5);
-
-      const pal = ['#f6a69e', '#f8d488', '#98ccf0', '#b0e0a8', '#d2baf2'];
       for (let f = 0; f < floors; f++) {
         const y = f * 96;
-        x.fillStyle = band; x.fillRect(0, y, w, 16);
-        // 使用暖褐水彩線條代替黑色樓層線
-        x.fillStyle = 'rgba(145, 130, 110, 0.38)'; x.fillRect(0, y, w, 2);
-        x.fillStyle = 'rgba(145, 130, 110, 0.22)'; x.fillRect(0, y + 15, w, 2.5);
+        x.fillStyle = band; x.fillRect(0, y, w, 14);
+        x.fillStyle = '#c87d55'; x.fillRect(0, y + 12, w, 4);
         for (let c = 0; c < cols; c++) {
           const X = c * 64;
-          x.fillStyle = 'rgba(255,255,255,0.62)';
-          x.fillRect(X, y + 16, 6, 80);
-          if (accent && (c * 7 + f * 3) % 5 === 0) {
-            x.fillStyle = pal[(c + f) % pal.length];
-            x.fillRect(X + 9, y + 20, 46, 64);
-            continue;
-          }
-          const grd = x.createLinearGradient(X + 10, y + 24, X + 54, y + 78);
-          grd.addColorStop(0, '#a8daf4');
-          grd.addColorStop(0.5, glass);
-          grd.addColorStop(1, '#5882a0');
+          // 古典壁柱 (Pilaster)
+          x.fillStyle = '#fdf8f0';
+          x.fillRect(X + 2, y + 16, 6, 76);
+          // 拱窗赤陶外框
+          x.fillStyle = '#c87d55';
+          x.beginPath();
+          x.arc(X + 32, y + 40, 20, Math.PI, 0);
+          x.lineTo(X + 52, y + 82);
+          x.lineTo(X + 12, y + 82);
+          x.closePath();
+          x.fill();
+          // 蔚藍玻璃窗心
+          const grd = x.createLinearGradient(X + 16, y + 24, X + 48, y + 80);
+          grd.addColorStop(0, '#7cc2eb');
+          grd.addColorStop(1, '#3b749c');
           x.fillStyle = grd;
-          x.fillRect(X + 10, y + 24, 44, 56);
-          x.strokeStyle = '#b4a694'; x.lineWidth = 2.5;
-          x.strokeRect(X + 9, y + 23, 46, 58);
-          x.strokeStyle = '#ffffff'; x.lineWidth = 2;
-          x.strokeRect(X + 11, y + 25, 42, 54);
-          x.fillStyle = '#ffffff';
-          x.fillRect(X + 31, y + 24, 2, 56);
-          x.fillRect(X + 10, y + 43, 44, 2);
-          x.fillStyle = 'rgba(255,255,255,0.45)';
-          x.beginPath(); x.moveTo(X + 14, y + 28); x.lineTo(X + 27, y + 28); x.lineTo(X + 16, y + 72); x.closePath(); x.fill();
+          x.beginPath();
+          x.arc(X + 32, y + 40, 16, Math.PI, 0);
+          x.lineTo(X + 48, y + 78);
+          x.lineTo(X + 16, y + 78);
+          x.closePath();
+          x.fill();
+          // 米白拱窗格柵線
+          x.strokeStyle = '#f5ead8';
+          x.lineWidth = 2.5;
+          x.beginPath();
+          x.moveTo(X + 32, y + 24); x.lineTo(X + 32, y + 78);
+          x.moveTo(X + 16, y + 46); x.lineTo(X + 48, y + 46);
+          x.moveTo(X + 16, y + 62); x.lineTo(X + 48, y + 62);
+          x.stroke();
         }
-        x.fillStyle = 'rgba(140, 125, 108, 0.28)';
-        x.fillRect(0, y + 81, w, 3);
+      }
+    });
+  }
+
+  function glassVaultTex(cols = 12) {
+    return canvasTex(512, 256, (x, w, h) => {
+      const grd = x.createLinearGradient(0, 0, 0, h);
+      grd.addColorStop(0, '#88ccf2');
+      grd.addColorStop(0.5, '#5296c4');
+      grd.addColorStop(1, '#38729c');
+      x.fillStyle = grd; x.fillRect(0, 0, w, h);
+      x.strokeStyle = '#d8e4ec';
+      x.lineWidth = 5;
+      for (let i = 0; i <= cols; i++) {
+        const xx = (i / cols) * w;
+        x.beginPath(); x.moveTo(xx, 0); x.lineTo(xx, h); x.stroke();
+      }
+      for (let j = 1; j < 4; j++) {
+        const yy = (j / 4) * h;
+        x.beginPath(); x.moveTo(0, yy); x.lineTo(w, yy); x.stroke();
       }
     });
   }
 
   function taiwanTex(w, h) {
     return canvasTex(w, h, (x) => {
-      x.fillStyle = '#e59b6e'; x.fillRect(0, 0, w, h);
-      x.strokeStyle = '#f5d2b4'; x.lineWidth = 8; x.strokeRect(6, 6, w - 12, h - 12);
+      x.fillStyle = '#d98a5c'; x.fillRect(0, 0, w, h);
+      x.strokeStyle = '#f5ead8'; x.lineWidth = 10; x.strokeRect(6, 6, w - 12, h - 12);
       const P = [[0.62, 0.04], [0.72, 0.07], [0.79, 0.13], [0.77, 0.22], [0.74, 0.33], [0.71, 0.45], [0.67, 0.58], [0.61, 0.70], [0.54, 0.81], [0.48, 0.9], [0.45, 0.97], [0.4, 0.9], [0.32, 0.8], [0.26, 0.7], [0.22, 0.58], [0.22, 0.45], [0.27, 0.33], [0.36, 0.21], [0.48, 0.11]];
       const pts = P.map(([a, b]) => [a * w, b * h]);
-      const grd = x.createLinearGradient(0, 0, w, 0);
-      grd.addColorStop(0, '#fde68a'); grd.addColorStop(0.55, '#98e288'); grd.addColorStop(1, '#68b86a');
-      x.fillStyle = grd; x.beginPath(); pts.forEach(([a, b], i) => (i ? x.lineTo(a, b) : x.moveTo(a, b))); x.closePath(); x.fill();
+      x.fillStyle = '#68b836'; x.beginPath(); pts.forEach(([a, b], i) => (i ? x.lineTo(a, b) : x.moveTo(a, b))); x.closePath(); x.fill();
       x.strokeStyle = '#ffffff'; x.lineWidth = 4; x.stroke();
     });
   }
 
   function instBoxes(pts, geo, col) {
-    const n = pts.length, m = new T.InstancedMesh(geo, pbr(col, { roughness: 0.65 }), n), o = new T.Object3D();
+    const n = pts.length, m = new T.InstancedMesh(geo, pbr(col, { roughness: 0.48 }), n), o = new T.Object3D();
     pts.forEach(([x, y, z], i) => { o.position.set(x, y, z); o.updateMatrix(); m.setMatrixAt(i, o.matrix); });
     m.castShadow = m.receiveShadow = true;
     W.scene.add(m);
@@ -1973,158 +1880,275 @@
 
   function buildBuildings() {
     const colList = [];
+    const vaultMat = pbr('#ffffff', { map: glassVaultTex(14), roughness: 0.22, metalness: 0.35 });
     LAYOUT.buildings.forEach(b => {
       const w = b.x1 - b.x0, d = b.z1 - b.z0, h = b.floors * FLOOR_H, cx = (b.x0 + b.x1) / 2, cz = (b.z0 + b.z1) / 2;
-      const acc = !!b.color;
-      const tW = winTex(Math.max(2, Math.round(w / 3.4)), b.floors, b.wall, b.glass, b.band, acc);
-      const tD = winTex(Math.max(2, Math.round(d / 3.4)), b.floors, b.wall, b.glass, b.band, acc);
-      const roofCol = b.roofCol || '#cbd2ca';
+      const tW = winTex(Math.max(2, Math.round(w / 3.6)), b.floors, b.wall, b.glass, b.band);
+      const tD = winTex(Math.max(2, Math.round(d / 3.6)), b.floors, b.wall, b.glass, b.band);
+      const roofCol = b.roofCol || '#c87d55';
       const roofMat = b.roofTex === 'taiwan'
-        ? pbr('#ffffff', { map: taiwanTex(512, Math.round(512 * d / w)), roughness: 0.6 })
-        : pbr('#ffffff', { map: noiseTex(roofCol, ['#a8b0a8', '#eef2ec'], 256, 3), roughness: 0.78 });
-      const sideW = pbr('#ffffff', { map: tW, roughness: 0.55, metalness: 0.04 });
-      const sideD = pbr('#ffffff', { map: tD, roughness: 0.55, metalness: 0.04 });
+        ? pbr('#ffffff', { map: taiwanTex(512, Math.round(512 * d / w)), roughness: 0.5 })
+        : pbr(roofCol, { roughness: 0.52 });
+      const sideW = pbr('#ffffff', { map: tW, roughness: 0.52 });
+      const sideD = pbr('#ffffff', { map: tD, roughness: 0.52 });
       const m = new T.Mesh(box(w, h, d), [sideD, sideD, roofMat, sideW, sideW, sideW]);
       m.position.set(cx, h / 2, cz);
       m.castShadow = m.receiveShadow = true;
-      addEdgeInk(m, 28);
       W.scene.add(m);
       W.solids.push(m);
 
-      if (b.roof !== 'arch' && b.roofTex !== 'taiwan') {
-        const pm = pbr(b.wall, { roughness: 0.7 });
-        [[w + 0.4, 0.6, 0.35, 0, -d / 2], [w + 0.4, 0.6, 0.35, 0, d / 2], [0.35, 0.6, d, -w / 2, 0], [0.35, 0.6, d, w / 2, 0]].forEach(([a, bb, c, ox, oz]) =>
-          M(box(a, bb, c), b.wall, { x: cx + ox, y: h + 0.3, z: cz + oz, edge: 28, mat: pm }));
-      }
+      // 古典暖米白與赤陶雙層屋簷線腳 (Classical Cornice Molding)
+      const trimMat = pbr('#f5ead8', { roughness: 0.48 });
+      const terraMat = pbr('#d28258', { roughness: 0.50 });
+      [[w + 0.8, 0.55, 0.65, 0, -d / 2], [w + 0.8, 0.55, 0.65, 0, d / 2], [0.65, 0.55, d + 0.8, -w / 2, 0], [0.65, 0.55, d + 0.8, w / 2, 0]].forEach(([a, bb, c, ox, oz]) => {
+        M(box(a, bb, c), '#f5ead8', { x: cx + ox, y: h + 0.28, z: cz + oz, mat: trimMat });
+        M(box(a + 0.2, 0.25, c + 0.2), '#d28258', { x: cx + ox, y: h + 0.65, z: cz + oz, mat: terraMat });
+      });
 
-      if (b.roof === 'arch') {
-        const sq = G(null, cx, h, cz); sq.scale.y = 0.34;
+      // 截圖同款：透明弧形玻璃肋條溫室拱頂 (Classical Glass Barrel Vault)
+      if (b.roof === 'glassVault') {
+        const sq = G(null, cx, h + 0.5, cz); sq.scale.y = 0.42;
         const ar = new T.Mesh(
-          new T.CylinderGeometry(d / 2 - 0.5, d / 2 - 0.5, w - 1.0, 32, 1, false, 0, Math.PI),
-          pbr('#ffffff', { map: noiseTex('#dce4ec', ['#b8c4d0', '#f8fafc'], 256, 4), roughness: 0.50, metalness: 0.15 })
+          new T.CylinderGeometry(d / 2 - 0.5, d / 2 - 0.5, w - 1.0, 28, 1, false, 0, Math.PI),
+          vaultMat
         );
         ar.rotation.z = Math.PI / 2;
         ar.castShadow = true; ar.receiveShadow = true;
-        addEdgeInk(ar, 28);
         sq.add(ar);
         W.solids.push(ar);
       }
 
-      if (b.floors >= 3 && w > 25) {
-        const zf = cz + (cz > 0 ? -d / 2 - 0.95 : d / 2 + 0.95);
-        M(box(w, 0.28, 1.9), b.band, { x: cx, y: FLOOR_H, z: zf, edge: 28 });
-        for (let x = b.x0 + 2; x < b.x1 - 1; x += 4) colList.push([x, FLOOR_H / 2, zf + (cz > 0 ? -0.7 : 0.7)]);
+      if (b.floors >= 3 && w > 22) {
+        const zf = cz + (cz > 0 ? -d / 2 - 1.0 : d / 2 + 1.0);
+        M(box(w, 0.35, 2.0), '#dfbfa2', { x: cx, y: FLOOR_H, z: zf });
+        for (let x = b.x0 + 2.5; x < b.x1 - 1.5; x += 4.5) colList.push([x, FLOOR_H / 2, zf + (cz > 0 ? -0.75 : 0.75)]);
       }
+
       W.boxes.push({ x0: b.x0, x1: b.x1, z0: b.z0, z1: b.z1, h });
-      if (b.name) addLabel(b.name + (b.sub ? `\n${b.sub}` : ''), cx, h + (b.roof === 'arch' ? 9 : 5), cz);
+      if (b.name) addLabel(b.name + (b.sub ? `\n${b.sub}` : ''), cx, h + (b.roof === 'glassVault' ? 9 : 5), cz);
     });
-    instBoxes(colList, box(0.42, FLOOR_H, 0.42), '#faf6ee');
-  }
-
-  // 修澤蘭建築師圓樓「光復樓」：依實景保持純淨白色落柱與環形迴廊，不在圓樓建築物牆面上貼文字牌匾！
-  function buildDome() {
-    const D = LAYOUT.dome, g = G(null, D.x, 0, D.z), wallH = 11.4;
-    const stoneBump = getStoneBump(8);
-    const whiteStoneMat = pbr('#faf8f2', { bumpMap: stoneBump, bumpScale: 0.012, roughness: 0.58 });
-
-    addContactShadow(g, D.r * 1.08, 0.04, 0.62);
-    M(cyl(D.r * 0.98, D.r * 1.02, 0.45, 32), '#ebe4d6', { y: 0.225, parent: g, edge: 28, pbr: { roughness: 0.72 } });
-
-    const wt = canvasTex(1024, 256, (x, w, h) => {
-      x.fillStyle = '#f8f5ec'; x.fillRect(0, 0, w, h);
-      for (let f = 0; f < 3; f++) {
-        const y = f * 84;
-        x.fillStyle = '#e5decb'; x.fillRect(0, y, w, 14);
-        for (let i = 0; i < 32; i++) {
-          const grd = x.createLinearGradient(0, y + 20, 0, y + 68);
-          grd.addColorStop(0, '#a2d6f0'); grd.addColorStop(1, '#5888a8');
-          x.fillStyle = grd;
-          x.fillRect(i * 32 + 5, y + 20, 22, 48);
-          x.strokeStyle = '#b8aa98'; x.lineWidth = 1.5;
-          x.strokeRect(i * 32 + 5, y + 20, 22, 48);
-        }
-      }
-    });
-    const walls = M(new T.CylinderGeometry(D.r * 0.80, D.r * 0.80, wallH, 32), '#f8f5ec', {
-      y: wallH / 2 + 0.3, parent: g,
-      mat: pbr('#ffffff', { map: wt, roughness: 0.50, metalness: 0.05 })
-    });
-    W.solids.push(walls);
-
-    [3.8, 7.6, 11.4].forEach((yh, idx) => {
-      M(cyl(D.r * 0.93, D.r * 0.91, 0.34, 32), '#faf8f2', { y: yh, parent: g, mat: whiteStoneMat });
-      if (idx < 2) {
-        M(new T.CylinderGeometry(D.r * 0.92, D.r * 0.92, 0.95, 32, 1, true), '#f7f4ec', {
-          y: yh + 0.55, parent: g, mat: pbr('#f7f4ec', { side: T.DoubleSide, roughness: 0.62 })
-        });
-      }
-    });
-
-    for (let i = 0; i < 16; i++) {
-      const a = (i / 16) * Math.PI * 2 + Math.PI / 16;
-      M(new T.CylinderGeometry(0.62, 0.38, wallH + 0.6, 12), '#faf8f2', {
-        x: Math.sin(a) * D.r * 0.90,
-        y: (wallH + 0.6) / 2 + 0.2,
-        z: Math.cos(a) * D.r * 0.90,
-        ry: a, parent: g, mat: whiteStoneMat
-      });
-      M(cyl(0.50, 0.56, 0.5, 12), '#e5decb', {
-        x: Math.sin(a) * D.r * 0.90, y: 0.45, z: Math.cos(a) * D.r * 0.90, parent: g
-      });
-    }
-
-    M(cyl(D.r * 0.99, D.r * 0.94, 0.48, 32), '#faf8f2', { y: wallH + 0.55, parent: g, mat: whiteStoneMat });
-    const roof = M(
-      new T.SphereGeometry(D.r * 0.94, 32, 16, 0, Math.PI * 2, 0, Math.PI / 2),
-      '#64748b',
-      { y: wallH + 0.65, s: [1, 0.26, 1], parent: g, pbr: { map: noiseTex('#6c7a8c', ['#566476', '#8a98aa'], 256, 4), roughness: 0.58, metalness: 0.12 } }
-    );
-    W.solids.push(roof);
-    M(cyl(3.6, 4.0, 1.8, 24), '#faf8f2', { y: wallH + 0.65 + D.r * 0.24 + 0.5, parent: g, mat: whiteStoneMat });
-    M(new T.ConeGeometry(4.0, 1.5, 24), '#d8d0c2', { y: wallH + 0.65 + D.r * 0.24 + 2.1, parent: g });
-
-    // 西側入口雨庇
-    M(box(4.6, 0.42, 8.4), '#faf8f2', { x: -D.r * 0.90, y: 4.1, parent: g, edge: 28, mat: whiteStoneMat });
-    [-3.4, 3.4].forEach(oz => M(cyl(0.32, 0.24, 4.0, 12), '#faf8f2', { x: -D.r * 0.98, y: 2.0, z: oz, parent: g, mat: whiteStoneMat }));
-
-    W.circles.push({ x: D.x, z: D.z, r: D.r * 0.88 });
-    addLabel('光復樓（圓樓）\n修澤蘭設計・布克斯王國', D.x, wallH + D.r * 0.26 + 7.5, D.z);
+    instBoxes(colList, box(0.50, FLOOR_H, 0.50), '#f5ead8');
   }
 
   /* =====================================================================
-   * 圓樓正前方〈水袖〉雕塑與左右兩側立體「光」「復」二字（實景配置於水袖雕塑兩邊！）
+   * 修澤蘭圓樓「光復樓」升級為截圖正中央同款：「古典歐式玻璃肋條大穹頂溫室宮殿（Grand Classical Glass-Domed Conservatory Rotunda）」
+   * ===================================================================== */
+  function buildDome() {
+    const D = LAYOUT.dome, g = G(null, D.x, 0, D.z), wallH = 10.2;
+    const creamStoneMat = pbr('#f5ead8', { roughness: 0.48 });
+    const terraBandMat = pbr('#d6865a', { roughness: 0.48 });
+
+    addContactShadow(g, D.r * 1.08, 0.04, 0.62);
+    // 暖米白與赤陶雙層圓形台基
+    M(cyl(D.r * 1.02, D.r * 1.05, 0.45, 36), '#e2cfb6', { y: 0.225, parent: g });
+    M(cyl(D.r * 0.96, D.r * 0.99, 0.35, 36), '#d6865a', { y: 0.55, parent: g, mat: terraBandMat });
+
+    // 圓樓古典高拱窗外牆貼圖
+    const wt = canvasTex(1024, 256, (x, w, h) => {
+      x.fillStyle = '#f5ead8'; x.fillRect(0, 0, w, h);
+      x.fillStyle = '#d6865a'; x.fillRect(0, 0, w, 18);
+      x.fillStyle = '#e5cba8'; x.fillRect(0, h - 22, w, 22);
+      for (let i = 0; i < 16; i++) {
+        const X = i * 64;
+        // 赤陶拱形窗框
+        x.fillStyle = '#c47048';
+        x.beginPath();
+        x.arc(X + 32, 92, 22, Math.PI, 0);
+        x.lineTo(X + 54, 228);
+        x.lineTo(X + 10, 228);
+        x.closePath();
+        x.fill();
+        // 深邃天藍反光玻璃
+        const grd = x.createLinearGradient(0, 70, 0, 224);
+        grd.addColorStop(0, '#82c8f0');
+        grd.addColorStop(0.5, '#4888b8');
+        grd.addColorStop(1, '#2c5c84');
+        x.fillStyle = grd;
+        x.beginPath();
+        x.arc(X + 32, 92, 18, Math.PI, 0);
+        x.lineTo(X + 50, 224);
+        x.lineTo(X + 14, 224);
+        x.closePath();
+        x.fill();
+        // 米白放射狀拱窗格柵
+        x.strokeStyle = '#f5ead8';
+        x.lineWidth = 3;
+        x.beginPath();
+        x.moveTo(X + 32, 74); x.lineTo(X + 32, 224);
+        x.moveTo(X + 14, 125); x.lineTo(X + 50, 125);
+        x.moveTo(X + 14, 175); x.lineTo(X + 50, 175);
+        x.stroke();
+      }
+    });
+    const walls = M(new T.CylinderGeometry(D.r * 0.84, D.r * 0.84, wallH, 36), '#f5ead8', {
+      y: wallH / 2 + 0.5, parent: g,
+      mat: pbr('#ffffff', { map: wt, roughness: 0.42, metalness: 0.08 })
+    });
+    W.solids.push(walls);
+
+    // 環繞圓樓外圍的 16 組古典米白成對雙圓柱與柱頭柱礎
+    for (let i = 0; i < 16; i++) {
+      const a = (i / 16) * Math.PI * 2 + Math.PI / 16;
+      [-0.035, 0.035].forEach(da => {
+        const ang = a + da;
+        const cx = Math.sin(ang) * D.r * 0.90;
+        const cz = Math.cos(ang) * D.r * 0.90;
+        M(cyl(0.42, 0.48, wallH, 14), '#faf3e8', { x: cx, y: wallH / 2 + 0.6, z: cz, parent: g, mat: creamStoneMat });
+        M(box(1.05, 0.55, 1.05), '#d6865a', { x: cx, y: 0.85, z: cz, ry: ang, parent: g, mat: terraBandMat });
+        M(box(1.05, 0.48, 1.05), '#e8d4bc', { x: cx, y: wallH + 0.4, z: cz, ry: ang, parent: g });
+      });
+    }
+
+    // 屋簷古典赤陶與米白雙層環形挑簷 (Rotunda Entablature & Cornice)
+    M(cyl(D.r * 0.98, D.r * 0.94, 0.65, 36), '#d6865a', { y: wallH + 0.85, parent: g, mat: terraBandMat });
+    M(cyl(D.r * 1.02, D.r * 0.98, 0.55, 36), '#faf3e8', { y: wallH + 1.35, parent: g, mat: creamStoneMat });
+
+    // ==================== 截圖最核心亮點：深海藍玻璃與米白弧形肋條大穹頂 ＋ 頂部雙層玻璃採光塔亭 ＋ 穹頂翠綠垂藤 ====================
+    const domeGlassTex = canvasTex(1024, 512, (x, w, h) => {
+      const grd = x.createLinearGradient(0, 0, 0, h);
+      grd.addColorStop(0, '#9ae0ff');
+      grd.addColorStop(0.45, '#4b92c4');
+      grd.addColorStop(1, '#285e88');
+      x.fillStyle = grd; x.fillRect(0, 0, w, h);
+      // 水平緯線玻璃框
+      x.strokeStyle = 'rgba(235, 244, 250, 0.85)';
+      x.lineWidth = 6;
+      for (let r = 1; r <= 5; r++) {
+        const yy = (r / 6) * h;
+        x.beginPath(); x.moveTo(0, yy); x.lineTo(w, yy); x.stroke();
+      }
+      // 垂直經線玻璃框
+      for (let c = 0; c < 16; c++) {
+        const xx = (c / 16) * w;
+        x.beginPath(); x.moveTo(xx, 0); x.lineTo(xx, h); x.stroke();
+      }
+    });
+    const domeGlassMat = pbr('#ffffff', { map: domeGlassTex, roughness: 0.16, metalness: 0.38, clearcoat: 0.85 });
+    const domeH = D.r * 0.52;
+    const roof = M(
+      new T.SphereGeometry(D.r * 0.90, 36, 20, 0, Math.PI * 2, 0, Math.PI / 2),
+      '#ffffff',
+      { y: wallH + 1.5, s: [1, 0.58, 1], parent: g, mat: domeGlassMat }
+    );
+    W.solids.push(roof);
+
+    // 16 道立體米白弧形穹頂肋拱 (3D Raised White Dome Ribs)
+    for (let i = 0; i < 8; i++) {
+      const a = (i / 8) * Math.PI;
+      M(new T.TorusGeometry(D.r * 0.905, 0.24, 8, 32, Math.PI), '#f0e6d8', {
+        y: wallH + 1.5, ry: a, s: [1, 0.58, 1], parent: g
+      });
+    }
+
+    // 穹頂上的翠綠攀藤植栽（完全還原截圖溫室玻璃穹頂左上側攀爬的翠綠藤蔓！）
+    const vineCoords = [
+      [-6.5, wallH + 8.2, -4.5, 1.4], [-8.8, wallH + 6.8, -3.2, 1.2], [-4.2, wallH + 9.4, -2.5, 1.3],
+      [-10.5, wallH + 5.2, -1.8, 1.1], [-7.2, wallH + 7.5, 2.5, 1.25], [3.5, wallH + 9.2, -4.2, 1.15]
+    ];
+    vineCoords.forEach(([vx, vy, vz, vs]) => {
+      M(sSph(1.2 * vs, 12, 10), '#58a628', { x: vx, y: vy, z: vz, s: [1.4, 0.55, 1.2], parent: g });
+      M(sSph(0.85 * vs, 10, 8), '#68b832', { x: vx + 0.8, y: vy - 0.4, z: vz + 0.5, s: [1.2, 0.5, 1.1], parent: g });
+    });
+
+    // 穹頂正上方：雙層小玻璃採光塔亭與尖頂寶頂 (Top Glass Cupola Lantern)
+    const cupY = wallH + 1.5 + D.r * 0.90 * 0.56;
+    M(cyl(5.2, 5.5, 0.7, 24), '#faf3e8', { y: cupY, parent: g, mat: creamStoneMat });
+    M(cyl(4.6, 4.8, 4.2, 24), '#ffffff', { y: cupY + 2.2, parent: g, mat: domeGlassMat });
+    M(new T.ConeGeometry(4.8, 1.4, 24), '#faf3e8', { y: cupY + 4.9, parent: g, mat: creamStoneMat });
+
+    // 西側正門古典山牆門廊与雙紅木大門（對應截圖溫室正門！）
+    const porch = G(g, -D.r * 0.88, 0, 0);
+    M(box(4.2, 9.6, 9.2), '#f5ead8', { y: 4.8, parent: porch, mat: creamStoneMat });
+    M(box(4.6, 0.85, 9.8), '#d6865a', { y: 9.8, parent: porch, mat: terraBandMat });
+    M(box(4.8, 1.1, 6.2), '#faf3e8', { y: 10.6, parent: porch, mat: creamStoneMat });
+    // 拱形紅木大門
+    M(box(0.4, 5.8, 3.6), '#b85d3b', { x: -2.0, y: 3.1, parent: porch });
+    M(cyl(1.8, 1.8, 0.4, 16), '#b85d3b', { x: -2.0, y: 6.0, rz: Math.PI / 2, parent: porch });
+
+    W.circles.push({ x: D.x, z: D.z, r: D.r * 0.88 });
+    addLabel('光復樓（圓樓）\n修澤蘭設計・古典溫室穹頂', D.x, cupY + 8.5, D.z);
+  }
+
+  /* =====================================================================
+   * 圓樓正前方：截圖前景同款「鵝卵石鑲嵌圓形噴泉廣場」＋〈水袖〉雕塑＋左右兩側「光」「復」二字＋長石椅
    * ===================================================================== */
   function buildSculptures() {
     const sx = -21.8, sz = 15.8;
     const sg = G(null, sx, 0, sz);
-    addContactShadow(sg, 4.2, 0.055, 0.72);
-    M(cyl(3.2, 3.5, 0.48, 28), '#e6decb', { y: 0.24, parent: sg, pbr: { roughness: 0.65 } });
-    M(cyl(2.75, 2.75, 0.52, 28), '#72c2f8', { y: 0.26, parent: sg, pbr: { roughness: 0.15, metalness: 0.1, clearcoat: 0.8 } });
-    M(cyl(1.15, 1.45, 1.2, 18), '#f2ece0', { y: 0.70, parent: sg, pbr: { roughness: 0.55 } });
+    addContactShadow(sg, 5.5, 0.04, 0.65);
 
-    const sleeveMat = new T.MeshPhysicalMaterial({ color: '#f8fafc', roughness: 0.22, metalness: 0.22, clearcoat: 0.8 });
-    M(new T.TorusKnotGeometry(1.22, 0.28, 96, 20, 2, 3), '#f8fafc', {
-      y: 2.75, rx: 0.35, ry: 0.4, s: [0.88, 1.48, 0.88], parent: sg, mat: sleeveMat
+    // 1. 截圖前景最精緻的「圓形鵝卵石鑲嵌廣場地坪（Circular Cobblestone Mosaic Plaza）」！
+    const cobblePlazaTex = canvasTex(512, 512, (x, w, h) => {
+      const cx = 256, cy = 256;
+      x.fillStyle = '#e6d5bc'; x.fillRect(0, 0, w, h);
+      // 外圈暖沙石磚環
+      x.strokeStyle = '#c8b294'; x.lineWidth = 18;
+      x.beginPath(); x.arc(cx, cy, 240, 0, Math.PI * 2); x.stroke();
+      // 放射狀扇形鵝卵石鑲嵌帶
+      for (let a = 0; a < 24; a++) {
+        const ang = (a / 24) * Math.PI * 2;
+        for (let r = 115; r <= 210; r += 26) {
+          const px = cx + Math.cos(ang + (r % 2) * 0.05) * r;
+          const py = cy + Math.sin(ang + (r % 2) * 0.05) * r;
+          x.fillStyle = (a + r) % 2 === 0 ? '#a8b0ac' : '#bcc2be';
+          x.beginPath();
+          x.ellipse(px, py, 14, 9, ang, 0, Math.PI * 2);
+          x.fill();
+        }
+      }
+      // 內圈深灰石磚環與草皮環
+      x.strokeStyle = '#7c8288'; x.lineWidth = 22;
+      x.beginPath(); x.arc(cx, cy, 88, 0, Math.PI * 2); x.stroke();
+      x.fillStyle = '#58a628';
+      x.beginPath(); x.arc(cx, cy, 72, 0, Math.PI * 2); x.fill();
     });
-    M(new T.ConeGeometry(0.48, 2.3, 16), '#f8fafc', { x: 0.2, y: 4.2, z: -0.1, rz: -0.35, s: [1, 1, 0.35], parent: sg, mat: sleeveMat });
-    M(new T.ConeGeometry(0.40, 1.9, 16), '#f8fafc', { x: -0.3, y: 3.7, z: 0.2, rz: 0.42, s: [1, 1, 0.35], parent: sg, mat: sleeveMat });
+    const plazaDisc = new T.Mesh(new T.CircleGeometry(7.2, 48), pbr('#ffffff', { map: cobblePlazaTex, roughness: 0.58 }));
+    plazaDisc.rotation.x = -Math.PI / 2;
+    plazaDisc.position.y = 0.065;
+    plazaDisc.receiveShadow = true;
+    sg.add(plazaDisc);
 
-    // ==================== 在〈水袖〉雕塑左右兩邊豎立大大的「光」與「復」兩字景觀字碑！ ====================
+    // 2. 截圖同款：高腳雙層古典米白石雕噴泉池基座 ＋ 清澈蔚藍池水 ＋ 中央〈水袖〉雕塑！
+    const stoneMat = pbr('#f2e6d6', { roughness: 0.45 });
+    M(cyl(1.35, 1.75, 0.55, 28), '#e5d4be', { y: 0.28, parent: sg, mat: stoneMat });
+    M(cyl(0.68, 0.85, 1.15, 24), '#f2e6d6', { y: 0.95, parent: sg, mat: stoneMat });
+    // 噴泉大圓盤與清亮蔚藍水池
+    M(cyl(2.45, 1.65, 0.55, 32), '#f5ead8', { y: 1.55, parent: sg, mat: stoneMat });
+    M(new T.TorusGeometry(2.38, 0.22, 12, 32), '#faf3e8', { y: 1.82, rx: Math.PI / 2, parent: sg, mat: stoneMat });
+    M(cyl(2.22, 2.22, 0.14, 32), '#2ea0e8', { y: 1.80, parent: sg, pbr: { roughness: 0.12, metalness: 0.1, clearcoat: 0.9 } });
+    // 上層小水盤
+    M(cyl(1.05, 0.65, 0.45, 24), '#f5ead8', { y: 2.15, parent: sg, mat: stoneMat });
+    M(cyl(0.92, 0.92, 0.12, 24), '#38b2f8', { y: 2.36, parent: sg, pbr: { roughness: 0.12, clearcoat: 0.9 } });
+
+    // 中央米白〈水袖〉流線雕塑
+    const sleeveMat = new T.MeshPhysicalMaterial({ color: '#faf6ee', roughness: 0.22, metalness: 0.12, clearcoat: 0.8 });
+    M(new T.TorusKnotGeometry(0.95, 0.22, 80, 18, 2, 3), '#faf6ee', {
+      y: 3.35, rx: 0.35, ry: 0.4, s: [0.85, 1.38, 0.85], parent: sg, mat: sleeveMat
+    });
+
+    // 3. 截圖圓形廣場兩側的「米白古典石雕長椅（Sandstone Garden Benches）」！
+    [[-3.8, -3.6, 0.75], [-3.8, 3.6, -0.75]].forEach(([bx, bz, bry]) => {
+      const bg = G(sg, bx, 0, bz);
+      bg.rotation.y = bry;
+      M(box(2.4, 0.18, 0.75), '#f2e4d0', { y: 0.58, parent: bg, mat: stoneMat });
+      M(box(0.35, 0.55, 0.68), '#e2cfb6', { x: -0.85, y: 0.28, parent: bg });
+      M(box(0.35, 0.55, 0.68), '#e2cfb6', { x: 0.85, y: 0.28, parent: bg });
+    });
+
+    // 4. 在〈水袖〉噴泉左右兩側豎立「光」與「復」兩字古典石碑！
     const makeCharMonument = (ch, zOff) => {
-      const mg = G(sg, -0.4, 0, zOff);
-      // 暖米白斬石子底座
-      M(box(0.75, 0.65, 1.65), '#e8dfd0', { y: 0.325, parent: mg, edge: 28 });
-      M(box(0.55, 1.95, 1.85), '#faf6ee', { y: 1.55, parent: mg, edge: 28 });
-      M(box(0.65, 0.18, 2.0), '#d8cbb8', { y: 2.58, parent: mg, edge: 28 });
+      const mg = G(sg, 0.2, 0, zOff);
+      M(box(0.75, 0.65, 1.65), '#e2cfb6', { y: 0.325, parent: mg });
+      M(box(0.55, 1.95, 1.85), '#faf3e8', { y: 1.55, parent: mg });
+      M(box(0.68, 0.22, 2.02), '#d6865a', { y: 2.58, parent: mg });
       const chTex = canvasTex(256, 256, (x, w, h) => {
-        x.fillStyle = '#faf6ee'; x.fillRect(0, 0, w, h);
-        x.strokeStyle = '#cbbba6'; x.lineWidth = 8; x.strokeRect(10, 10, w - 20, h - 20);
+        x.fillStyle = '#faf3e8'; x.fillRect(0, 0, w, h);
+        x.strokeStyle = '#d6865a'; x.lineWidth = 8; x.strokeRect(10, 10, w - 20, h - 20);
         x.font = `900 176px "DFKai-SB","BiauKai","Kaiti TC",${FONT_TC}`;
         x.textAlign = 'center'; x.textBaseline = 'middle';
-        // 溫潤古銅金立體陰影與深藍金字
-        x.fillStyle = 'rgba(180, 140, 80, 0.45)';
+        x.fillStyle = 'rgba(180, 140, 80, 0.38)';
         x.fillText(ch, w / 2 + 5, h / 2 + 11);
-        x.strokeStyle = '#d49b38'; x.lineWidth = 8;
+        x.strokeStyle = '#d49b38'; x.lineWidth = 7;
         x.strokeText(ch, w / 2, h / 2 + 6);
         x.fillStyle = '#284578';
         x.fillText(ch, w / 2, h / 2 + 6);
@@ -2136,12 +2160,11 @@
         mg.add(p);
       });
     };
-    // 北側（左邊）立「光」字、南側（右邊）立「復」字，夾立於〈水袖〉雕塑兩側！
-    makeCharMonument('光', -2.55);
-    makeCharMonument('復', 2.55);
+    makeCharMonument('光', -3.65);
+    makeCharMonument('復', 3.65);
 
-    W.circles.push({ x: sx, z: sz, r: 3.5 });
-    addLabel('〈水袖〉雕塑與「光復」景觀字', sx, 6.2, sz);
+    W.circles.push({ x: sx, z: sz, r: 3.2 });
+    addLabel('〈水袖〉噴泉與「光復」景觀字', sx, 5.8, sz);
   }
 
   function buildTowers() {
@@ -2281,214 +2304,153 @@
     W.circles.push({ x: Gt.x, z: Gt.z0 - 0.5, r: 1.1 }, { x: Gt.x, z: Gt.z1 + 0.5, r: 1.1 });
   }
 
-  function buildTrees() {
-    const C = LAYOUT.campus, pts = [];
-    const add = (x, z, s = 1, inside = true) => { pts.push([x, z, s]); if (inside) W.circles.push({ x, z, r: 0.55 * s }); };
-    for (let x = C.x0 + 2; x < C.x1 - 1; x += 4.6) add(x + srnd(-0.8, 0.8), C.z0 + 3.5 + srnd(-1, 1), srnd(1, 1.35));
-    for (let z = C.z0 + 9; z < -34; z += 5) add(C.x0 + 3 + srnd(-0.5, 0.5), z, srnd(0.9, 1.2));
-    for (let z = -30; z < 20; z += 6) add(C.x1 - 1.6, z + srnd(-1, 1), 0.8);
-    [[41, -74], [41, -36], [-30, -33], [-18, -33], [-44, -33]].forEach(([x, z]) => add(x, z, 1.1));
-    for (let i = 0; i < 70; i++) {
-      const x = srnd(68, 128), z = srnd(-110, 130);
-      if (Math.abs(x - 110) < 12 && Math.abs(z - 10) < 48) continue;
-      add(x, z, srnd(1, 1.6), false);
-    }
-    for (let x = -200; x < 200; x += 9) { add(x, C.z0 - 7.5, 1.1, false); add(x, C.z0 - 36.5, 1.1, false); }
-    for (let z = -200; z < 200; z += 9) { if (z < -2 || z > 32) add(C.x0 - 4.5, z, 1, false); add(C.x0 - 30.5, z, 1, false); }
-    for (let x = -58; x < 70; x += 7) add(x, C.z1 + 5.5, 1, false);
-    instTrees(pts);
+  // 建立截圖同款「多層次歐式庭園松柏樹与修剪灌木樹（Layered Botanical Cypress & Garden Trees）」
+  function addBotanicalTree(x, z, sc = 1.0, variant = 0, inside = true) {
+    const tg = G(null, x, 0, z);
+    tg.scale.setScalar(sc);
+    addContactShadow(tg, 2.0, 0.05, 0.62);
+    M(cyl(0.24, 0.36, 2.0, 10), '#7c5234', { y: 1.0, parent: tg, pbr: { roughness: 0.75 } });
 
+    const greens = ['#4e9c22', '#58a828', '#64b632', '#448e1c'];
+    if (variant % 2 === 0) {
+      // 截圖同款：五層修剪柏樹／松樹（蓬鬆多層次的圓錐簇）
+      for (let layer = 0; layer < 4; layer++) {
+        const r = 1.75 - layer * 0.32;
+        const h = 1.65 - layer * 0.15;
+        const yy = 2.0 + layer * 0.95;
+        M(new T.ConeGeometry(r, h, 14), greens[(variant + layer) % greens.length], {
+          y: yy, ry: layer * 0.5, parent: tg, pbr: { roughness: 0.62 }
+        });
+      }
+    } else {
+      // 截圖背景同款：飽滿修剪團簇闊葉庭園樹
+      [[0, 2.8, 0, 1.55], [-0.85, 2.3, 0.4, 1.15], [0.85, 2.35, -0.35, 1.18], [0, 3.85, 0, 1.15], [0.2, 2.4, 0.85, 1.1]].forEach(([ox, oy, oz, r], idx) => {
+        M(sSph(r, 16, 12), greens[(variant + idx) % greens.length], { x: ox, y: oy, z: oz, parent: tg, pbr: { roughness: 0.62 } });
+      });
+    }
+
+    if (inside) W.circles.push({ x, z, r: 0.55 * sc });
+    return tg;
+  }
+
+  function buildTrees() {
+    const C = LAYOUT.campus;
+    let idx = 0;
+    const add = (x, z, s = 1, inside = true) => { addBotanicalTree(x, z, s, idx++, inside); };
+
+    // 迎賓大道、圓樓溫室兩側與花園配置優雅的歐式松柏樹
     [
-      [-55, 7.2], [-46, 7.2], [-37, 7.2], [-28, 7.2], [-19, 7.2],
-      [-55, 20.8], [-46, 20.8], [-37, 20.8], [-28, 20.8], [-19, 20.8],
-      [-54, -1.4], [-40, -1.4], [-26, -1.4], [-13, -1.4], [-56, 27.5], [-16, 29], [-12, 58]
-    ].forEach(([x, z]) => palm(x, z, srnd(7.8, 10.2)));
+      [-54, 4.5], [-44, 4.5], [-34, 4.5],
+      [-54, 23.5], [-44, 23.5], [-34, 23.5],
+      [-52, -1.8], [-38, -1.8], [-24, -1.8], [-11, -1.8],
+      [-55, 29], [-12, 57], [14, 29], [23, 52]
+    ].forEach(([x, z], i) => addBotanicalTree(x, z, 1.05, i, true));
+
+    // 校園外圍與遠方山丘前的成排松柏樹林（重現截圖溫室後方整排翠綠樹林！）
+    for (let x = C.x0 + 3; x < C.x1 - 2; x += 5.5) add(x, C.z0 + 3.2, 1.15);
+    for (let z = C.z0 + 9; z < -34; z += 6.0) add(C.x0 + 3, z, 1.05);
+    for (let z = -30; z < 45; z += 6.0) add(C.x1 - 1.8, z, 1.15);
+    [[41, -74], [41, -36], [-30, -33], [-18, -33], [-44, -33]].forEach(([x, z]) => add(x, z, 1.1));
+
+    [[82, -35], [82, -15], [82, 32], [82, 52], [-68, -98], [24, -98]].forEach(([x, z], i) => {
+      addBotanicalTree(x, z, 1.3, i, false);
+    });
   }
 
   function instTrees(pts) {
-    const crownGeo = mergeGeos([
-      sSph(1.85, 16, 12).translate(0, 0.85, 0),
-      sSph(1.38, 14, 10).translate(1.1, 0.25, 0.4),
-      sSph(1.28, 14, 10).translate(-1.05, 0.32, -0.35),
-      sSph(1.20, 14, 10).translate(0.15, 1.95, -0.35),
-      sSph(1.15, 12, 10).translate(-0.2, 0.4, 1.15)
-    ]);
-    const n = pts.length;
-    const trunk = new T.InstancedMesh(cyl(0.24, 0.38, 3, 10), pbr('#8c684c', { roughness: 0.85 }), n);
-    const crown = new T.InstancedMesh(crownGeo, pbr('#ffffff', { map: getLeafClusterTex(), roughness: 0.68 }), n);
-    const shadowGeo = new T.PlaneGeometry(3.8, 3.8);
-    shadowGeo.rotateX(-Math.PI / 2);
-    const shadowMat = new T.MeshBasicMaterial({ map: getAOShadowTex(), transparent: true, opacity: 0.62, depthWrite: false });
-    const treeShadows = new T.InstancedMesh(shadowGeo, shadowMat, n);
-
-    const o = new T.Object3D(), col = new T.Color(), greens = ['#8ed486', '#9ce092', '#7cc476', '#aae89e', '#86ce80'];
-    const baseData = [];
-    pts.forEach(([x, z, s], i) => {
-      const ry = srnd(0, 6.28);
-      o.position.set(x, 1.5 * s, z); o.rotation.set(0, ry, 0); o.scale.setScalar(s); o.updateMatrix();
-      trunk.setMatrixAt(i, o.matrix);
-      o.position.set(x, 3.4 * s, z); o.updateMatrix();
-      crown.setMatrixAt(i, o.matrix);
-      crown.setColorAt(i, col.set(greens[i % greens.length]));
-      o.position.set(x, 0.055, z); o.rotation.set(0, 0, 0); o.scale.setScalar(s); o.updateMatrix();
-      treeShadows.setMatrixAt(i, o.matrix);
-      baseData.push({ x, z, s, ry, ph: x * 0.09 + z * 0.07 + i * 0.37 });
-    });
-    [trunk, crown].forEach(m => { m.castShadow = true; m.receiveShadow = true; W.scene.add(m); });
-    W.scene.add(treeShadows);
-    // 重要：不將搖曳樹冠加入 W.solids，避免第三人稱相機射線碰撞到樹葉造成鏡頭左右晃動！
-
-    const dummy = new T.Object3D();
-    W.updaters.push(t => {
-      if (W.reduced) return;
-      for (let i = 0; i < n; i++) {
-        const b = baseData[i];
-        const w1 = Math.sin(t * 2.1 + b.ph);
-        const w2 = Math.cos(t * 1.6 + b.ph * 1.3);
-        dummy.position.set(b.x + w1 * 0.14 * b.s, (3.4 + w2 * 0.04) * b.s, b.z + w2 * 0.10 * b.s);
-        dummy.rotation.set(w2 * 0.075, b.ry + w1 * 0.05, w1 * 0.09);
-        dummy.scale.set(b.s * (1 + w1 * 0.025), b.s * (1 - w1 * 0.02), b.s * (1 + w2 * 0.025));
-        dummy.updateMatrix();
-        crown.setMatrixAt(i, dummy.matrix);
-      }
-      crown.instanceMatrix.needsUpdate = true;
-    });
-  }
-
-  function palm(x, z, h) {
-    const g = G(null, x, 0, z), bend = srnd(-0.08, 0.08);
-    addContactShadow(g, 1.85, 0.055, 0.65);
-    M(cyl(0.22, 0.36, h, 12), '#beb6a8', { y: h / 2, rz: bend, parent: g, pbr: { roughness: 0.8 } });
-    M(cyl(0.24, 0.22, 1.2, 12), '#68b06e', { y: h - 0.4, rz: bend, parent: g });
-    const top = G(g, -Math.sin(bend) * h, h, 0);
-    const fronds = [];
-    for (let i = 0; i < 10; i++) {
-      const a = (i / 10) * Math.PI * 2, l = G(top);
-      l.rotation.y = a;
-      const frond = M(new T.ConeGeometry(0.58, 3.9, 5), '#74be78', { y: -0.25, z: 1.75, rx: Math.PI / 2 + 0.52, s: [1, 1, 0.22], parent: l, pbr: { roughness: 0.58 } });
-      fronds.push({ m: frond, ph: i * 0.65 });
-    }
-    const ph = srnd(0, 6);
-    W.updaters.push(t => {
-      if (W.reduced) return;
-      top.rotation.z = Math.sin(t * 1.6 + ph) * 0.085;
-      top.rotation.x = Math.cos(t * 1.3 + ph) * 0.065;
-      fronds.forEach(f => {
-        f.m.rotation.x = Math.PI / 2 + 0.52 + Math.sin(t * 2.8 + ph + f.ph) * 0.09;
-      });
-    });
-    W.circles.push({ x, z, r: 0.45 });
+    pts.forEach(([x, z, s], i) => addBotanicalTree(x, z, s * 0.95, i, false));
   }
 
   /* =====================================================================
-   * 西南生態花園：淡水彩荷花池、悠游錦鯉與「實體 3D 彩色飄逸大波斯菊花海」
+   * 西南生態花園：升級為截圖中央同款「橘色魚鱗瓦八角白柱水上涼亭＋雙側米白石拱橋＋雙噴泉睡蓮池＋大波斯菊花海」
    * ===================================================================== */
   function buildGarden() {
     const Gd = LAYOUT.garden, cx = (Gd.x0 + Gd.x1) / 2, cz = (Gd.z0 + Gd.z1) / 2;
-    flat(Gd.x1 - Gd.x0, Gd.z1 - Gd.z0, pbr('#ffffff', { map: grassTex([10, 8]), roughness: 0.82 }), cx, cz, 0.05);
-    const path = new T.Mesh(new T.RingGeometry(9.6, 11.4, 48), pbr('#ece0c8', { roughness: 0.72 }));
-    path.rotation.x = -Math.PI / 2; path.position.set(cx, 0.07, cz); path.receiveShadow = true; W.scene.add(path);
-    flat(11, 2.2, pbr('#ece0c8'), Gd.x0 + 4, cz, 0.07);
-    flat(2.2, 7.5, pbr('#ece0c8'), cx, Gd.z0 + 3, 0.07);
+    flat(Gd.x1 - Gd.x0, Gd.z1 - Gd.z0, pbr('#ffffff', { map: grassTex([10, 8]), roughness: 0.65 }), cx, cz, 0.05);
 
-    const px = cx + 2.2, pz = cz + 1.5, pr = 5.6;
+    // 蜿蜒暖米白石板步道與深灰石路緣 (#7c8288)
+    const ringOuter = new T.Mesh(new T.RingGeometry(9.3, 11.7, 48), pbr('#7c8288', { roughness: 0.65 }));
+    ringOuter.rotation.x = -Math.PI / 2; ringOuter.position.set(cx, 0.065, cz); W.scene.add(ringOuter);
+    const path = new T.Mesh(new T.RingGeometry(9.6, 11.4, 48), pbr('#ffffff', { map: paveTex('#e6d7c0', '#c8b69c', [8, 8]), roughness: 0.55 }));
+    path.rotation.x = -Math.PI / 2; path.position.set(cx, 0.072, cz); path.receiveShadow = true; W.scene.add(path);
+
+    const px = cx + 2.2, pz = cz + 1.5, pr = 6.4;
     const pondG = G(null, px, 0, pz);
 
-    const waterTex = canvasTex(512, 512, (x, w, h) => {
-      const grd = x.createRadialGradient(256, 256, 20, 256, 256, 256);
-      grd.addColorStop(0, '#9ae6e2'); grd.addColorStop(0.65, '#82d4dc'); grd.addColorStop(1, '#6ec2d0');
-      x.fillStyle = grd; x.fillRect(0, 0, w, h);
-    }, { repeat: [2, 2] });
-    if (window.GAME_ASSETS && window.GAME_ASSETS.waterNb2) {
-      const img = new Image();
-      img.onload = () => {
-        const ctx = waterTex.image.getContext('2d');
-        ctx.drawImage(img, 0, 0, 512, 512);
-        waterTex.needsUpdate = true;
-      };
-      img.src = window.GAME_ASSETS.waterNb2;
-    }
+    // 1. 截圖同款：米白與深灰雙層石砌圓形池岸 ＋ 清澈寶石藍水面 (#2ea0e8)
+    M(new T.TorusGeometry(pr + 0.25, 0.32, 12, 48), '#7c8288', { y: 0.12, rx: Math.PI / 2, parent: pondG });
+    M(new T.TorusGeometry(pr - 0.05, 0.26, 12, 48), '#e6d7c0', { y: 0.22, rx: Math.PI / 2, parent: pondG });
 
-    const pondWaterMat = new T.ShaderMaterial({
-      transparent: true,
-      uniforms: {
-        uTime: { value: 0 },
-        uMap: { value: waterTex }
-      },
-      vertexShader: `
-        varying vec2 vUv;
-        uniform float uTime;
-        void main() {
-          vUv = uv;
-          vec3 p = position;
-          p.z += sin(p.x * 2.2 + uTime * 2.2) * 0.015 + cos(p.y * 2.5 + uTime * 1.8) * 0.012;
-          gl_Position = projectionMatrix * modelViewMatrix * vec4(p, 1.0);
-        }
-      `,
-      fragmentShader: `
-        varying vec2 vUv;
-        uniform float uTime;
-        uniform sampler2D uMap;
-        void main() {
-          vec2 uv1 = vUv * 1.25 + vec2(sin(uTime * 0.16 + vUv.y * 4.0) * 0.02, cos(uTime * 0.14 + vUv.x * 4.0) * 0.02);
-          vec2 uv2 = vUv * 1.65 - vec2(cos(uTime * 0.18) * 0.018, sin(uTime * 0.16) * 0.018);
-          vec3 tex1 = texture2D(uMap, uv1).rgb;
-          vec3 tex2 = texture2D(uMap, uv2).rgb;
-          vec3 base = mix(tex1, tex2, 0.35);
-          float dist = length(vUv - 0.5) * 2.0;
-          float ripple = sin(dist * 22.0 - uTime * 2.8) * 0.5 + 0.5;
-          float caustic = smoothstep(0.78, 0.98, sin(vUv.x * 26.0 + uTime * 1.9) * cos(vUv.y * 26.0 - uTime * 1.6));
-          vec3 wcTint = mix(vec3(0.58, 0.86, 0.88), vec3(0.72, 0.92, 0.90), 1.0 - smoothstep(0.0, 0.95, dist));
-          vec3 col = mix(base, wcTint, 0.22) + vec3(0.95, 0.99, 1.0) * caustic * 0.22 + vec3(0.95, 0.99, 1.0) * smoothstep(0.86, 0.98, dist) * ripple * 0.28;
-          gl_FragColor = vec4(col, 0.90);
-#include <colorspace_fragment>
-        }
-      `
-    });
-    const pondBed = new T.Mesh(new T.CircleGeometry(pr, 48), pbr('#88c4bc', { roughness: 0.85 }));
+    const pondBed = new T.Mesh(new T.CircleGeometry(pr, 48), pbr('#2276b8', { roughness: 0.45 }));
     pondBed.rotation.x = -Math.PI / 2; pondBed.position.y = 0.06; pondG.add(pondBed);
 
-    const pondSurface = new T.Mesh(new T.CircleGeometry(pr - 0.08, 48, 0, Math.PI * 2), pondWaterMat);
-    pondSurface.rotation.x = -Math.PI / 2; pondSurface.position.y = 0.14; pondG.add(pondSurface);
+    const pondSurface = new T.Mesh(
+      new T.CircleGeometry(pr - 0.1, 48),
+      pbr('#38a4ec', { roughness: 0.12, metalness: 0.15, clearcoat: 0.9, transparent: true, opacity: 0.88 })
+    );
+    pondSurface.rotation.x = -Math.PI / 2; pondSurface.position.y = 0.16; pondG.add(pondSurface);
 
-    // 淡水彩鵝卵石池岸（無黑色描邊）
-    const rockCols = ['#cbd5e1', '#dcd6cc', '#b8c4d0', '#d6cfc4', '#c2ccd6'];
-    for (let i = 0; i < 36; i++) {
-      const ang = (i / 36) * Math.PI * 2 + srnd(-0.04, 0.04);
-      const rr = pr - 0.15 + srnd(-0.22, 0.25);
-      const rx = Math.cos(ang) * rr, rz = Math.sin(ang) * rr;
-      const sx = srnd(0.45, 0.85), sy = srnd(0.26, 0.52), sz = srnd(0.45, 0.82);
-      M(sSph(1, 12, 10), rockCols[i % rockCols.length], {
-        x: rx, y: sy * 0.42, z: rz, ry: srnd(0, 3.14),
-        s: [sx, sy, sz], parent: pondG, pbr: { roughness: 0.78 }
-      });
+    // 2. 截圖正中央最華麗的水上地標：「橘色魚鱗瓦頂＋八根米白古典圓柱＋環形石欄杆水上涼亭（Octagonal Classical Gazebo Island）」！
+    const gaz = G(pondG, 0, 0, 0);
+    const creamMat = pbr('#f5ead8', { roughness: 0.45 });
+    const terraBaseMat = pbr('#df9b72', { roughness: 0.5 });
+    // 水中圓形雙層粉橘與米白石台座
+    M(cyl(2.85, 3.05, 0.48, 32), '#df9b72', { y: 0.24, parent: gaz, mat: terraBaseMat });
+    M(cyl(2.55, 2.75, 0.36, 32), '#f5ead8', { y: 0.56, parent: gaz, mat: creamMat });
+    // 環繞涼亭島的米白弧形石欄杆與花台
+    M(new T.TorusGeometry(2.52, 0.14, 10, 32), '#faf3e8', { y: 1.05, rx: Math.PI / 2, parent: gaz, mat: creamMat });
+    for (let i = 0; i < 12; i++) {
+      const a = (i / 12) * Math.PI * 2;
+      M(cyl(0.08, 0.08, 0.45, 8), '#f5ead8', { x: Math.cos(a) * 2.52, y: 0.85, z: Math.sin(a) * 2.52, parent: gaz });
     }
-    M(sSph(1.15, 14, 12), '#b8c4d0', { x: 0.8, y: 0.65, z: -pr + 0.3, s: [1.2, 0.85, 0.95], parent: pondG });
-    M(sSph(0.85, 12, 10), '#cbd5e1', { x: -0.4, y: 0.50, z: -pr + 0.4, s: [1.1, 0.75, 0.9], parent: pondG });
+    // 8 根古典米白圓柱托起圓形橫樑
+    for (let i = 0; i < 8; i++) {
+      const a = (i / 8) * Math.PI * 2 + Math.PI / 8;
+      const gx = Math.cos(a) * 1.72, gz = Math.sin(a) * 1.72;
+      M(cyl(0.22, 0.26, 0.32, 12), '#e5d2ba', { x: gx, y: 0.85, z: gz, parent: gaz });
+      M(cyl(0.15, 0.18, 2.45, 14), '#faf5ec', { x: gx, y: 2.15, z: gz, parent: gaz, mat: creamMat });
+      M(cyl(0.24, 0.18, 0.25, 12), '#e5d2ba', { x: gx, y: 3.38, z: gz, parent: gaz });
+    }
+    M(cyl(2.05, 1.95, 0.38, 28), '#f5ead8', { y: 3.62, parent: gaz, mat: creamMat });
+    // 雙層橘色魚鱗瓦圓頂＋米白寶頂（完全還原截圖中的橘色涼亭屋頂！）
+    const orangeTileMat = pbr('#f09436', { roughness: 0.38, metalness: 0.05 });
+    M(new T.ConeGeometry(2.38, 1.15, 28), '#f09436', { y: 4.30, parent: gaz, mat: orangeTileMat });
+    M(new T.SphereGeometry(1.75, 28, 14, 0, Math.PI * 2, 0, Math.PI * 0.48), '#f5a042', { y: 4.15, s: [1, 0.72, 1], parent: gaz, mat: orangeTileMat });
+    M(sSph(0.36, 16, 12), '#faf3e8', { y: 5.38, parent: gaz, mat: creamMat });
 
-    const deck = G(pondG, -pr + 0.4, 0, 0);
-    M(box(2.8, 0.18, 5.2), '#c48b60', { y: 0.32, parent: deck, edge: 28, pbr: { roughness: 0.68 } });
-    [-2.3, -0.8, 0.8, 2.3].forEach(dz => {
-      M(cyl(0.12, 0.12, 0.95, 10), '#9c6842', { x: 1.2, y: 0.48, z: dz, parent: deck });
-      M(cyl(0.12, 0.12, 0.95, 10), '#9c6842', { x: -1.2, y: 0.48, z: dz, parent: deck });
+    // 3. 截圖同款：連接水上涼亭與池岸的「雙側米白拱形石欄杆小橋（Arched Stone Balustrade Bridges）」！
+    [-1, 1].forEach(dirX => {
+      const br = G(pondG, dirX * 4.35, 0, 0);
+      M(box(3.8, 0.22, 1.65), '#e6d7c0', { y: 0.52, rz: dirX * -0.08, parent: br });
+      [-0.74, 0.74].forEach(bz => {
+        M(box(3.8, 0.14, 0.16), '#faf3e8', { y: 1.05, z: bz, rz: dirX * -0.08, parent: br });
+        [-1.6, -0.5, 0.5, 1.6].forEach(bx => {
+          M(cyl(0.09, 0.10, 0.58, 10), '#f5ead8', { x: bx, y: 0.78, z: bz, parent: br });
+        });
+      });
     });
-    M(box(0.14, 0.12, 5.0), '#a87248', { x: 1.2, y: 0.95, parent: deck, edge: 28 });
-    M(box(0.45, 0.10, 4.6), '#d29b6e', { x: 0.95, y: 0.58, parent: deck, edge: 28 });
 
-    const lotusPads = [];
+    // 4. 截圖同款：池中左右對稱的「小型圓盤水景噴泉（Small Tiered Pond Fountains）」！
+    [[0, -4.1], [0, 4.1]].forEach(([fx, fz]) => {
+      const fg = G(pondG, fx, 0.15, fz);
+      M(cyl(0.45, 0.62, 0.55, 16), '#e5d4be', { y: 0.25, parent: fg });
+      M(cyl(0.95, 0.65, 0.28, 20), '#f5ead8', { y: 0.62, parent: fg });
+      M(cyl(0.82, 0.82, 0.08, 20), '#60c5f8', { y: 0.74, parent: fg });
+      M(sSph(0.24, 12, 10), '#e0f2fe', { y: 0.88, parent: fg });
+    });
+
     const padCoords = [
-      [-1.8, -1.6, 0.62], [-0.5, -2.4, 0.52], [1.6, -1.9, 0.68], [2.5, -0.6, 0.55],
-      [2.1, 1.4, 0.64], [0.6, 2.3, 0.58], [-1.4, 2.1, 0.66], [-2.2, 0.8, 0.50],
-      [0.2, -0.4, 0.60], [1.2, 0.4, 0.48], [-0.8, 0.9, 0.54], [2.9, 0.6, 0.46]
+      [-2.8, -2.6, 0.55], [-1.5, -3.4, 0.48], [2.6, -2.9, 0.58], [3.5, -1.8, 0.50],
+      [3.1, 2.4, 0.56], [1.6, 3.3, 0.52], [-2.4, 3.1, 0.58], [-3.5, 1.8, 0.48]
     ];
     padCoords.forEach(([lx, lz, lr], idx) => {
-      const lg = G(pondG, lx, 0.16, lz);
+      const lg = G(pondG, lx, 0.18, lz);
       const padGeo = new T.CircleGeometry(lr, 20, 0.15, Math.PI * 2 - 0.30);
-      const padM = M(padGeo, idx % 2 === 0 ? '#86cf82' : '#74be72', { rx: -Math.PI / 2, rz: idx * 1.1, parent: lg, cast: false, pbr: { roughness: 0.58 } });
+      const padM = M(padGeo, idx % 2 === 0 ? '#68be38' : '#58a82c', { rx: -Math.PI / 2, rz: idx * 1.1, parent: lg, cast: false, pbr: { roughness: 0.58 } });
       padM.receiveShadow = true;
       if (idx % 2 === 0) {
         const flG = G(lg, 0.12, 0.04, 0.08);
-        const petalCol = idx % 4 === 0 ? '#f9a8d4' : '#ffffff';
+        const petalCol = idx % 4 === 0 ? '#f472b6' : '#ffffff';
         for (let p = 0; p < 8; p++) {
           const pa = (p / 8) * Math.PI * 2;
           M(new T.ConeGeometry(0.09, 0.26, 6), petalCol, {
@@ -2498,146 +2460,22 @@
         }
         M(sSph(0.075, 10, 8), '#fde047', { y: 0.09, parent: flG });
       }
-      lotusPads.push({ lg, ph: idx * 0.8 });
     });
 
-    const fishes = [];
-    const fishPalette = [
-      { body: '#f26a6a', tail: '#ffffff', spot: '#ffffff' },
-      { body: '#f6bd60', tail: '#fef08a', spot: '#f28444' },
-      { body: '#ffffff', tail: '#f26a6a', spot: '#64748b' },
-      { body: '#f9a8d4', tail: '#ffffff', spot: '#f472b6' }
-    ];
-    for (let i = 0; i < 12; i++) {
-      const fp = fishPalette[i % fishPalette.length];
-      const fg = G(pondG, 0, 0.135, 0);
-      const sc = 0.65 + (i % 3) * 0.22;
-      fg.scale.setScalar(sc);
-      M(sSph(0.18, 14, 10), fp.body, { s: [0.52, 0.42, 1.55], parent: fg, pbr: { roughness: 0.2, clearcoat: 0.9 } });
-      M(sSph(0.10, 10, 8), fp.spot, { y: 0.05, z: 0.06, s: [0.6, 0.35, 0.9], parent: fg });
-      [-1, 1].forEach(sx => {
-        M(sSph(0.025, 8, 6), '#475569', { x: sx * 0.075, y: 0.03, z: 0.20, parent: fg });
-        M(new T.ConeGeometry(0.06, 0.16, 4), fp.tail, { x: sx * 0.09, y: -0.01, z: 0.05, rz: sx * 1.1, rx: -0.4, s: [1, 1, 0.25], parent: fg });
-      });
-      const tailG = G(fg, 0, 0, -0.24);
-      M(new T.ConeGeometry(0.11, 0.24, 5), fp.tail, { z: -0.10, rx: -Math.PI / 2, s: [0.32, 1, 1.1], parent: tailG });
-      fishes.push({
-        fg, tailG,
-        r: 1.1 + (i % 5) * 0.72,
-        speed: 0.42 + (i % 4) * 0.14,
-        ph: i * 1.05,
-        dir: i % 2 === 0 ? 1 : -1
-      });
+    // 荷花池周圍盛開的 3D 飄逸彩色大波斯菊花海与歐式紫粉花圃
+    const cosmosColors = ['#ec4899', '#f472b6', '#ffffff', '#f97316', '#a855f7'];
+    for (let i = 0; i < 110; i++) {
+      const ang = (i / 110) * Math.PI * 2 + srnd(-0.08, 0.08);
+      const rr = pr + 0.65 + (i % 5) * 0.65;
+      const fx = px + Math.cos(ang) * rr, fz = pz + Math.sin(ang) * rr;
+      const fg = G(null, fx, 0.05, fz);
+      const h = 0.42 + (i % 3) * 0.10;
+      M(cyl(0.02, 0.025, h, 6), '#4e9c22', { y: h / 2, parent: fg });
+      M(cyl(0.18, 0.18, 0.03, 8), cosmosColors[i % cosmosColors.length], { y: h, rx: 0.2, parent: fg });
+      M(sSph(0.06, 8, 6), '#facc15', { y: h + 0.02, parent: fg });
     }
-
-    [[1.4, -pr + 0.45, 0.5], [-0.5, -pr + 0.5, -0.4]].forEach(([tx, tz, ry]) => {
-      const tg = G(pondG, tx, 0.56, tz);
-      tg.rotation.y = ry;
-      M(sSph(0.22, 14, 10), '#749c58', { s: [0.88, 0.48, 1.12], parent: tg });
-      M(sSph(0.09, 10, 8), '#8cb86e', { y: 0.04, z: 0.24, parent: tg });
-    });
-
-    const poemSign = G(pondG, -pr - 0.6, 0, 3.2);
-    M(cyl(0.06, 0.06, 1.2, 8), '#9c6842', { y: 0.6, parent: poemSign });
-    M(box(0.95, 0.62, 0.08), '#fef3c7', { y: 1.22, rx: -0.25, parent: poemSign, edge: 28 });
-
-    W.circles.push({ x: px, z: pz, r: pr + 0.2 });
-    W.pondPos = new V3(px, 0, pz);
-    addLabel('植物詩文步道・荷花生態池', px, 4.2, pz);
-
-    // ==================== 荷花園周遭：實體 3D 彩色飄逸大波斯菊花海 (3D Swaying Cosmos Flowers) ====================
-    // 徹底移除原本的圓球體 (sph)，改為由 8 片放射狀扁平花瓣＋金黃花蕊＋纖細花莖與羽狀葉構成的實體大波斯菊！
-    const petalParts = [];
-    for (let p = 0; p < 8; p++) {
-      const a = (p / 8) * Math.PI * 2;
-      const pg = sSph(0.11, 8, 6);
-      pg.scale(0.52, 0.14, 1.45);
-      pg.rotateX(0.12);
-      pg.translate(0, 0.56, 0.16);
-      pg.rotateY(a);
-      petalParts.push(pg);
-    }
-    const cosmosPetalGeo = mergeGeos(petalParts);
-    const cosmosStemGeo = mergeGeos([
-      cyl(0.018, 0.024, 0.56, 6).translate(0, 0.28, 0),
-      new T.ConeGeometry(0.035, 0.18, 4).scale(1, 1, 0.3).rotateZ(0.75).translate(-0.06, 0.26, 0),
-      new T.ConeGeometry(0.035, 0.18, 4).scale(1, 1, 0.3).rotateZ(-0.75).translate(0.06, 0.34, 0),
-      sSph(0.065, 8, 6).scale(1, 0.45, 1).translate(0, 0.57, 0)
-    ]);
-
-    const cosmosCount = 220;
-    const instStems = new T.InstancedMesh(cosmosStemGeo, pbr('#78b86a', { roughness: 0.65 }), cosmosCount);
-    const instPetals = new T.InstancedMesh(cosmosPetalGeo, pbr('#ffffff', { roughness: 0.48 }), cosmosCount);
-    instStems.castShadow = true;
-    instPetals.castShadow = true;
-
-    const cosmosCols = ['#f472b6', '#f9a8d4', '#ffffff', '#e879f9', '#fb923c', '#fbcfe8'];
-    const cosmosData = [];
-    const dummyC = new T.Object3D(), colC = new T.Color();
-    for (let i = 0; i < cosmosCount; i++) {
-      const a = srnd(0, Math.PI * 2), r = srnd(11.6, 16.2);
-      let x = cx + Math.cos(a) * r, z = cz + Math.sin(a) * r * 0.92;
-      x = Math.max(Gd.x0 + 0.6, Math.min(Gd.x1 - 0.6, x));
-      z = Math.max(Gd.z0 + 0.6, Math.min(Gd.z1 - 0.6, z));
-      const sc = srnd(0.85, 1.38), ry = srnd(0, 6.28);
-      dummyC.position.set(x, 0.05, z);
-      dummyC.rotation.set(0, ry, 0);
-      dummyC.scale.setScalar(sc);
-      dummyC.updateMatrix();
-      instStems.setMatrixAt(i, dummyC.matrix);
-      instPetals.setMatrixAt(i, dummyC.matrix);
-      instPetals.setColorAt(i, colC.set(cosmosCols[i % cosmosCols.length]));
-      cosmosData.push({ x, z, sc, ry, ph: x * 0.18 + z * 0.14 + i * 0.31 });
-    }
-    W.scene.add(instStems);
-    W.scene.add(instPetals);
-
-    W.updaters.push((t, dt) => {
-      pondWaterMat.uniforms.uTime.value = t;
-      if (W.reduced) return;
-      lotusPads.forEach(lp => {
-        lp.lg.position.y = 0.155 + Math.sin(t * 1.8 + lp.ph) * 0.008;
-      });
-      fishes.forEach(f => {
-        const ang = t * f.speed * f.dir + f.ph;
-        const rNow = f.r + Math.sin(t * 0.9 + f.ph) * 0.45;
-        const nx = Math.cos(ang) * rNow;
-        const nz = Math.sin(ang) * rNow;
-        const dx = -Math.sin(ang) * f.dir * rNow * f.speed + Math.cos(ang) * Math.cos(t * 0.9 + f.ph) * 0.45 * 0.9;
-        const dz = Math.cos(ang) * f.dir * rNow * f.speed + Math.sin(ang) * Math.cos(t * 0.9 + f.ph) * 0.45 * 0.9;
-        f.fg.position.set(nx, 0.135 + Math.sin(t * 2.2 + f.ph) * 0.01, nz);
-        f.fg.rotation.y = Math.atan2(dx, dz);
-        f.tailG.rotation.y = Math.sin(t * 14 + f.ph) * 0.42;
-      });
-      // 大波斯菊花海隨微風輕盈搖曳飄逸
-      for (let i = 0; i < cosmosCount; i++) {
-        const cd = cosmosData[i];
-        const swX = Math.sin(t * 2.5 + cd.ph) * 0.18;
-        const swZ = Math.cos(t * 2.0 + cd.ph * 0.9) * 0.15;
-        dummyC.position.set(cd.x, 0.05, cd.z);
-        dummyC.rotation.set(swX, cd.ry, swZ);
-        dummyC.scale.setScalar(cd.sc);
-        dummyC.updateMatrix();
-        instStems.setMatrixAt(i, dummyC.matrix);
-        instPetals.setMatrixAt(i, dummyC.matrix);
-      }
-      instStems.instanceMatrix.needsUpdate = true;
-      instPetals.instanceMatrix.needsUpdate = true;
-    });
-
-    const pts = [];
-    [[-46, 31], [-42, 58], [-36, 30], [-20, 31], [-10, 34], [-8, 58], [-24, 59], [-47, 45], [-40, 52]].forEach(([x, z]) => {
-      pts.push([x, z, 1.25]); W.circles.push({ x, z, r: 0.7 });
-    });
-    instTrees(pts);
-    [[-36, 38, 0.6], [-19, 50, -2.5]].forEach(([x, z, ry]) => {
-      const b = G(null, x, 0, z); b.rotation.y = ry;
-      addContactShadow(b, 1.25, 0.065, 0.68);
-      M(box(2.2, 0.15, 0.6), '#c48b60', { y: 0.5, parent: b, edge: 28 });
-      M(box(2.2, 0.5, 0.12), '#c48b60', { y: 0.85, z: -0.28, parent: b, edge: 28 });
-      [-0.9, 0.9].forEach(x2 => M(box(0.12, 0.5, 0.5), '#64748b', { x: x2, y: 0.25, parent: b, edge: 28 }));
-      W.circles.push({ x, z, r: 1 });
-    });
+    W.circles.push({ x: px, z: pz, r: pr - 0.2 });
+    addLabel('植物詩文步道・古典水上涼亭荷花池', px, 6.2, pz);
   }
 
   /* =====================================================================
@@ -2700,7 +2538,7 @@
     const dummy = new T.Object3D();
     const col = new T.Color();
     // 自然柔和淡綠水彩草色調
-    const grassPalette = ['#94d488', '#a6df98', '#86c87a', '#b4e6a6', '#9cd890', '#bceba8'];
+    const grassPalette = ['#4eb830', '#58c438', '#68d246', '#44ae28', '#72dc4e', '#52be34'];
     tufts.forEach((tf, i) => {
       dummy.position.set(tf.x, tf.y, tf.z);
       dummy.rotation.set(0, tf.ry, 0);
@@ -2855,13 +2693,13 @@
       ring.rotation.x = -Math.PI / 2; ring.position.set(s.x, 0.1, s.z); W.scene.add(ring);
 
       const sp = new T.Sprite(new T.SpriteMaterial({ map: badgeTex({ label: '' }), depthTest: true, transparent: true }));
-      sp.scale.set(2.2, 1.38, 1); sp.position.set(s.x, 3.5, s.z); sp.renderOrder = 10; W.scene.add(sp);
+      sp.scale.set(1.55, 0.96, 1); sp.position.set(s.x, 3.1, s.z); sp.renderOrder = 10; W.scene.add(sp);
 
       const beam = new T.Mesh(
-        new T.CylinderGeometry(0.9, 1.45, 60, 20, 1, true),
-        new T.MeshBasicMaterial({ color: '#fde047', transparent: true, opacity: 0.22, depthWrite: false, side: T.DoubleSide, blending: T.AdditiveBlending })
+        new T.CylinderGeometry(0.65, 1.25, 12, 20, 1, true),
+        new T.MeshBasicMaterial({ color: '#fde047', transparent: true, opacity: 0.12, depthWrite: false, side: T.DoubleSide, blending: T.AdditiveBlending })
       );
-      beam.position.set(s.x, 30, s.z); beam.visible = false; W.scene.add(beam);
+      beam.position.set(s.x, 6, s.z); beam.visible = false; W.scene.add(beam);
 
       // 若為 6 大互動體驗關卡，建立專屬 3D 特殊機關物件與 Nano Banana 2 立繪展板與地板材質！
       if (s.prop) {
@@ -2964,11 +2802,11 @@
         }
         const k = W.reduced ? 1 : 1 + Math.sin(t * 3 + st.ph) * 0.08;
         ring.scale.set(k, k, k);
-        sp.position.y = 3.5 + (W.reduced ? 0 : Math.sin(t * 2 + st.ph) * 0.15);
-        const dist = W.camera.position.distanceTo(sp.position), sc = W.mode === 'play' ? Math.min(1.25, Math.max(0.75, dist / 24)) : Math.max(1, dist / 34);
-        sp.scale.set(2.2 * sc, 1.38 * sc, 1);
+        sp.position.y = 3.1 + (W.reduced ? 0 : Math.sin(t * 2 + st.ph) * 0.10);
+        const dist = W.camera.position.distanceTo(sp.position), sc = W.mode === 'play' ? Math.min(0.95, Math.max(0.62, dist / 28)) : Math.min(1.2, Math.max(0.8, dist / 42));
+        sp.scale.set(1.55 * sc, 0.96 * sc, 1);
         sp.material.opacity = W.mode === 'play' ? T.MathUtils.clamp((dist - 5) / 7, 0.12, 1) : 1;
-        if (beam.visible) beam.material.opacity = 0.16 + Math.sin(t * 2.5) * 0.06;
+        if (beam.visible) beam.material.opacity = (W.mode === 'play' ? 0.10 : 0.0) + Math.sin(t * 2.5) * 0.03;
       });
     });
   }
@@ -2986,21 +2824,17 @@
   W.labels = [];
   function addLabel(text, x, y, z) {
     const lines = text.split('\n');
-    const t = canvasTex(512, 160, (c, w, h) => {
+    const t = canvasTex(384, 108, (c, w, h) => {
       c.clearRect(0, 0, w, h);
-      c.fillStyle = 'rgba(42, 62, 92, 0.86)';
-      c.beginPath(); c.roundRect(6, 6, w - 12, h - 12, 40); c.fill();
-      c.strokeStyle = 'rgba(255,255,255,0.55)'; c.lineWidth = 4; c.stroke();
+      c.fillStyle = 'rgba(30, 48, 72, 0.78)';
+      c.beginPath(); c.roundRect(8, 8, w - 16, h - 16, 36); c.fill();
+      c.strokeStyle = 'rgba(255,255,255,0.65)'; c.lineWidth = 3; c.stroke();
       c.fillStyle = '#ffffff'; c.textAlign = 'center'; c.textBaseline = 'middle';
-      if (lines.length > 1) {
-        c.font = `900 54px ${FONT_TC}`; c.fillText(lines[0], w / 2, 60);
-        c.font = `700 32px ${FONT_TC}`; c.fillStyle = '#fde68a'; c.fillText(lines[1], w / 2, 118);
-      } else {
-        c.font = `900 60px ${FONT_TC}`; c.fillText(lines[0], w / 2, h / 2 + 2);
-      }
+      c.font = `900 40px ${FONT_TC}`;
+      c.fillText(lines[0], w / 2, h / 2 + 2);
     }, { text: true });
     const sp = new T.Sprite(new T.SpriteMaterial({ map: t, transparent: true, depthWrite: false }));
-    sp.position.set(x, y, z); sp.scale.set(12.5, 3.9, 1); W.scene.add(sp); W.labels.push(sp);
+    sp.position.set(x, y + 2.5, z); sp.scale.set(7.2, 2.0, 1); W.scene.add(sp); W.labels.push(sp);
   }
 
   /* =====================================================================
@@ -3387,8 +3221,7 @@
     const far = W.mode === 'play' ? 85 : 1e9, cp = cam.pos;
     W.npcs.forEach(n => (n.npc.visible = Math.hypot(n.x - cp.x, n.z - cp.z) < far));
     W.kids.forEach(k => (k.visible = Math.hypot(k.position.x - cp.x, k.position.z - cp.z) < far * 0.85));
-    const showLabels = W.mode !== 'play';
-    W.labels.forEach(l => (l.visible = showLabels || W.camera.position.distanceTo(l.position) > 26));
+    W.labels.forEach(l => (l.visible = (W.mode === 'bird' && W.camera.position.distanceTo(l.position) > 52)));
     W.renderer.render(W.scene, W.camera);
     W.listeners.frame.forEach(f => f(dt));
     frames++; fpsT += dt;

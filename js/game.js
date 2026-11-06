@@ -633,7 +633,7 @@
     for (let g = 1; g <= 6; g++) {
       const p = S.progress[g] || {}, st = ALL.reduce((a, id) => a + ((p[id] && p[id].stars) || 0), 0), done = ALL.filter(id => p[id] && p[id].done).length;
       const b = document.createElement('button'); b.className = 'grade' + (S.grade === g ? ' on' : '');
-      b.innerHTML = `${gName(g)}<small>${done ? `🏅 ${done}關　⭐${st}` : (g <= 2 ? '推薦：低年級體感' : '推薦：中年級邏輯')}</small>`;
+      b.innerHTML = `${gName(g)}${done ? `<small>⭐${st}</small>` : ''}`;
       b.onclick = () => { S.grade = g; SFX.tap(); if (S.bgm) startBGM(); [...box.children].forEach((c, i) => c.classList.toggle('on', i === g - 1)); $('#go').disabled = false; };
       box.appendChild(b);
     }
@@ -1011,16 +1011,21 @@
       y: (e.clientY - r.top) * (mgCanvas.height / r.height)
     };
   }
+  let mgPtrDown = false;
   mgCanvas.addEventListener('pointerdown', e => {
+    mgPtrDown = true;
+    try { mgCanvas.setPointerCapture(e.pointerId); } catch (err) { }
     if (!activeMg) return;
     const pt = getCanvasPos(e);
     if (activeMg.onPointerDown) activeMg.onPointerDown(pt.x, pt.y);
   });
   mgCanvas.addEventListener('pointermove', e => {
-    if (!activeMg) return;
+    if (!activeMg || !mgPtrDown) return;
     const pt = getCanvasPos(e);
     if (activeMg.onPointerMove) activeMg.onPointerMove(pt.x, pt.y);
+    else if (activeMg.onPointerDown && activeMg.id !== 'mg_angle' && activeMg.id !== 'mg_gear') activeMg.onPointerDown(pt.x, pt.y);
   });
+  ['pointerup', 'pointercancel'].forEach(ev => mgCanvas.addEventListener(ev, () => { mgPtrDown = false; }));
 
   function drawTiledBg(ctx, texKey, fallbackCol, alpha = 1, scrollX = 0, scrollY = 0) {
     const W0 = mgCanvas.width, H0 = mgCanvas.height;
@@ -1424,11 +1429,11 @@
       ]);
 
       state.onKey = (code) => { if (code === 'Space') togglePole(); };
-      state.onPointerDown = (x, y) => { state.tx = x; state.ty = y; };
-      state.onPointerMove = (x, y) => { if (e_buttons_down) { state.tx = x; state.ty = y; } };
-      let e_buttons_down = false;
-      mgCanvas.onpointerdown = e => { e_buttons_down = true; const p = getCanvasPos(e); state.tx = p.x; state.ty = p.y; };
-      mgCanvas.onpointerup = () => { e_buttons_down = false; };
+      state.onPointerDown = (x, y) => {
+        if (Math.hypot(x - state.px, y - state.py) < 44) { togglePole(); return; }
+        state.tx = x; state.ty = y;
+      };
+      state.onPointerMove = (x, y) => { state.tx = x; state.ty = y; };
 
       refreshPrompt();
       let lastT = performance.now();
@@ -1781,7 +1786,19 @@
       }
 
       state.onKey = (code) => { if (code === 'Space' || code === 'Enter') fireCatapult(); };
-      state.onPointerDown = () => fireCatapult();
+      // 支援手機橫向／觸控直接點擊或拖曳畫面調整仰角與力道，放開或點發射鈕即投射！
+      state.onPointerDown = (x, y) => {
+        if (x > 160) {
+          const dx = Math.max(40, x - 135), dy = Math.max(20, 385 - y);
+          const deg = Math.round(Math.atan2(dy, dx) * 180 / Math.PI);
+          state.angle = deg >= 75 ? 90 : (deg >= 52 ? 60 : (deg >= 38 ? 45 : 30));
+          const dist = Math.hypot(dx, dy);
+          state.power = dist > 480 ? 90 : (dist > 320 ? 75 : 60);
+          setupAngleControls();
+          refreshAngleUI();
+        }
+        fireCatapult();
+      };
 
       setupAngleControls();
       refreshAngleUI();

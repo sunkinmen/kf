@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
-  <meta name="theme-color" content="#5cb896">
-  <title>光復國小 校園探險王｜淡水彩繪本風 3D 實景＆六大物理生存互動闖關</title>
-  <meta name="description" content="在淡水彩繪本風 3D 實景光復國小校園裡探索修澤蘭圓樓、圓樓前水袖雕塑與兩側光復題字、植物詩文步道荷花池大波斯菊花海，體驗地板是岩漿、磁鐵滾球、節奏跳舞機、角度投石車、食物鏈大逃殺與齒輪光影迷宮六大互動遊戲！">
+  <meta name="theme-color" content="#1e7cd4">
+  <title>光復國小 校園探險王</title>
+  <meta name="description" content="臺北市信義區光復國小 3D 校園探險與六大物理生存互動學習遊戲">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="assets/icons/icon-192.png">
   <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Baloo+2:wght@600;800&display=swap" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="css/style.css?v=7">
+  <link rel="stylesheet" href="css/style.css?v=8">
 </head>
 <body>
   <div id="world" aria-hidden="true"></div>
@@ -23,124 +23,119 @@
   <div id="loader" role="progressbar" aria-label="載入中">
     <div class="loader-icon">🦉</div>
     <div class="loader-bar"><i id="loader-fill"></i></div>
-    <p id="loader-text">正在暈染光復國小淡水彩實景、六大物理生存互動機關與木吉他長笛 BGM…</p>
+    <p id="loader-text">載入光復國小 3D 校園中…</p>
   </div>
 
-  <!-- 標題：選年級 -->
+  <!-- 標題：極簡化進場設定表單 -->
   <main id="title" class="screen">
     <div class="title-card">
-      <p class="eyebrow"><span class="ps5-badge">WATERCOLOR 3D</span> KUANG FU ELEMENTARY · 實景互動冒險</p>
-      <h1>臺北市光復國小<br><span>校園探險王</span></h1>
-      <p class="title-sub">還原修澤蘭圓樓、〈水袖〉雕塑兩側「光復」題字、大波斯菊花海與國父紀念館，加上 <b>6 大物理互動＆環境生存迷你遊戲</b>，集滿印章領獎狀！</p>
-      <div class="uniform-pill">
-        <i class="uniform-swatch"></i>
-        <span>實景夏季運動服：淺天藍連肩短袖＋胸前「光復」白底細藍紋＋淺天藍短褲</span>
-      </div>
-      <label class="name-row">我的名字<input id="name" maxlength="8" placeholder="小小探險家" autocomplete="off"></label>
-      <div class="pick-label">選擇年級（自動推薦最適合的低／中年級體感互動關卡）</div>
+      <h1>光復國小 <span>校園探險王</span></h1>
+      <label class="name-row">姓名<input id="name" maxlength="8" placeholder="小小探險家" autocomplete="off"></label>
+      <div class="pick-label">選擇年級</div>
       <div class="grades" id="grades"></div>
-      <div class="pick-label">選擇日系動漫角色（Nano Banana 2 立繪臉孔＋淺天藍運動服）</div>
+      <div class="pick-label">選擇角色</div>
       <div class="avatars">
         <button class="avatar on" data-g="m" onclick="Game.pickAvatar('m')">
-          <img id="title-boy-img" src="assets/anime-boy.jpg" alt="男生動漫立繪" class="avatar-img">
-          <div class="avatar-info"><b>元氣男生</b><small>淺天藍運動服</small></div>
+          <img id="title-boy-img" src="assets/anime-boy.jpg" alt="男生" class="avatar-img">
+          <div class="avatar-info"><b>男生</b></div>
         </button>
         <button class="avatar" data-g="f" onclick="Game.pickAvatar('f')">
-          <img id="title-girl-img" src="assets/anime-girl.jpg" alt="女生動漫立繪" class="avatar-img">
-          <div class="avatar-info"><b>活力女生</b><small>淺天藍運動服</small></div>
+          <img id="title-girl-img" src="assets/anime-girl.jpg" alt="女生" class="avatar-img">
+          <div class="avatar-info"><b>女生</b></div>
         </button>
       </div>
-      <button class="btn btn-go" id="go" onclick="Game.start()" disabled>出發探險！</button>
-      <p class="title-foot">電腦：WASD／方向鍵移動、Shift 衝刺、空白鍵跳躍、E 互動　手機：左下搖桿、🏃 衝刺、🦘 跳躍</p>
+      <button class="btn btn-go" id="go" onclick="Game.start()" disabled>出發探險 ▸</button>
     </div>
   </main>
 
-  <!-- 遊戲中介面 -->
+  <!-- 遊戲中介面（零重疊精簡 HUD） -->
   <div id="hud" hidden>
     <div class="hud-tl">
       <div class="hud-top-row">
-        <img id="hud-avatar" src="assets/anime-boy.jpg" alt="玩家頭像" class="hud-avatar">
-        <div>
-          <div class="grade-chip" id="grade-chip">三年級</div>
-          <div class="stars" id="stars">⭐ 0 / 42</div>
-          <div class="loc-chip" id="loc-chip">📍 椰林迎賓大道</div>
+        <img id="hud-avatar" src="assets/anime-boy.jpg" alt="頭像" class="hud-avatar" onclick="Game.openGameHub()">
+        <div class="hud-meta">
+          <span class="grade-chip" id="grade-chip">三年級</span>
+          <span class="stars" id="stars">⭐ 0</span>
+          <span class="loc-chip" id="loc-chip">📍 迎賓大道</span>
         </div>
       </div>
       <div class="stamps" id="stamps"></div>
     </div>
+
     <div class="hud-tr">
-      <button class="icon-btn" onclick="Game.openGameHub()" aria-label="六大互動遊戲傳送門" title="六大物理生存互動遊戲傳送門">🎮</button>
-      <button class="icon-btn" id="btn-bgm" onclick="Game.toggleBGM()" aria-label="校園背景音樂" title="開關校園背景音樂">🎵</button>
-      <button class="icon-btn" id="btn-sun" onclick="Game.cycleTime()" aria-label="切換時段光影" title="切換晨曦／午後／夕陽光影">🌤️</button>
-      <button class="icon-btn" id="btn-tts" onclick="Game.toggleTTS()" aria-label="語音朗讀" title="語音朗讀">🔊</button>
-      <button class="icon-btn" id="btn-bird" onclick="Game.toggleBird()" aria-label="鳥瞰校園" title="鳥瞰校園 (M)">🗺️</button>
-      <button class="icon-btn" id="btn-view" onclick="Game.toggleView()" aria-label="切換視角" title="第一／第三人稱">👀</button>
-      <button class="icon-btn" onclick="Game.openMenu()" aria-label="選單" title="選單">☰</button>
+      <button class="icon-btn" onclick="Game.openGameHub()" aria-label="六大遊戲" title="六大遊戲">🎮</button>
+      <button class="icon-btn" id="btn-bgm" onclick="Game.toggleBGM()" aria-label="音樂" title="音樂">🎵</button>
+      <button class="icon-btn" id="btn-sun" onclick="Game.cycleTime()" aria-label="光影" title="光影">🌤️</button>
+      <button class="icon-btn" id="btn-tts" onclick="Game.toggleTTS()" aria-label="語音" title="語音">🔊</button>
+      <button class="icon-btn" id="btn-bird" onclick="Game.toggleBird()" aria-label="鳥瞰" title="鳥瞰">🗺️</button>
+      <button class="icon-btn" id="btn-view" onclick="Game.toggleView()" aria-label="視角" title="視角">👀</button>
+      <button class="icon-btn" onclick="Game.openMenu()" aria-label="設定" title="設定">☰</button>
     </div>
-    <canvas id="minimap" width="154" height="210" aria-label="小地圖"></canvas>
+
+    <canvas id="minimap" width="128" height="174" aria-label="小地圖"></canvas>
+
     <div class="guide" id="guide">
       <i class="arrow" id="guide-arrow">➤</i>
       <span id="guide-text">去找校長</span>
-      <button onclick="Game.goGuide()">帶我去</button>
+      <button onclick="Game.goGuide()">前往</button>
     </div>
-    <button class="talk-btn" id="talk" hidden onclick="Game.talk()"><span class="kbd">E</span><span id="talk-text">開始互動挑戰</span></button>
+
+    <button class="talk-btn" id="talk" hidden onclick="Game.talk()"><span class="kbd">E</span><span id="talk-text">開始挑戰</span></button>
     <div id="joystick" aria-hidden="true"><i></i></div>
-    <button class="jump-btn" id="jump" onclick="Game.jump()" aria-label="跳躍" title="跳躍 (空白鍵)">🦘</button>
-    <button class="run-btn" id="run" aria-label="跑步">🏃</button>
+    <button class="jump-btn" id="jump" onclick="Game.jump()" aria-label="跳躍" title="跳躍">🦘</button>
+    <button class="run-btn" id="run" aria-label="加速" title="加速">🏃</button>
   </div>
 
-  <!-- 日本動漫風格熱血轉場特效 (進入與退出遊戲雙向觸發) -->
+  <!-- 日本動漫風格轉場特效 -->
   <div id="anime-trans" class="anime-trans" hidden aria-hidden="true">
     <canvas id="anime-fx-canvas" width="1280" height="720"></canvas>
     <div class="anime-slash">
       <div class="anime-slash-inner">
-        <img id="anime-npc-img" src="assets/anime-boy.jpg" alt="關主立繪" class="anime-npc-img">
+        <img id="anime-npc-img" src="assets/anime-boy.jpg" alt="關主" class="anime-npc-img">
         <div class="anime-banner-copy">
-          <span class="anime-tag" id="anime-tag">STAGE START · 動漫實境挑戰</span>
-          <h2 id="anime-title">地板是岩漿：安全島分類大冒險</h2>
-          <p id="anime-sub">地面即將化為滾燙熔岩！快跳上正確分類的安全浮島！</p>
+          <span class="anime-tag" id="anime-tag">STAGE START</span>
+          <h2 id="anime-title">安全島分類大冒險</h2>
+          <p id="anime-sub">跳上正確分類的安全浮島！</p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- 六大物理互動／環境生存迷你遊戲全螢幕舞台 -->
+  <!-- 六大獨立遊戲全螢幕觸控舞台（針對手機橫向與直向全面優化） -->
   <div class="modal minigame-modal" id="minigame" hidden>
     <div class="mg-shell">
       <div class="mg-header">
         <div class="mg-npc-badge">
           <img id="mg-npc-avatar" src="assets/anime-boy.jpg" alt="關主" class="mg-npc-avatar">
           <div>
-            <span class="mg-tier" id="mg-tier">低年級・手眼協調與生活常識</span>
-            <h3 id="mg-title">地板是岩漿：安全島分類大冒險</h3>
+            <span class="mg-tier" id="mg-tier">低年級互動</span>
+            <h3 id="mg-title">安全島分類大冒險</h3>
           </div>
         </div>
         <div class="mg-stats">
-          <span class="mg-pill" id="mg-round">回合 1 / 3</span>
-          <span class="mg-pill mg-score" id="mg-score">⭐⭐⭐ 得分 0</span>
-          <button class="btn btn-ghost btn-sm" onclick="Game.exitMinigame()">🚪 退出返回校園</button>
+          <span class="mg-pill" id="mg-round">1 / 3</span>
+          <span class="mg-pill mg-score" id="mg-score">⭐ 0</span>
+          <button class="btn btn-ghost btn-sm" onclick="Game.exitMinigame()">✕ 退出</button>
         </div>
       </div>
       <div class="mg-prompt-bar">
-        <span id="mg-prompt">🎯 任務目標：</span>
-        <span class="mg-hint" id="mg-hint">方向鍵／點擊畫面操作</span>
+        <span id="mg-prompt">🎯 任務目標</span>
+        <span class="mg-hint" id="mg-hint">直接點擊或滑動畫面操作</span>
       </div>
       <div class="mg-stage-wrap">
         <canvas id="mg-canvas" width="900" height="500"></canvas>
-        <!-- 遊戲專屬觸控／快捷控制列 -->
         <div class="mg-controls" id="mg-controls"></div>
       </div>
     </div>
   </div>
 
-  <!-- 六大互動遊戲快速傳送門彈窗 -->
+  <!-- 六大遊戲快速選單 -->
   <div class="modal" id="game-hub" hidden>
     <div class="card hub-card">
       <div class="hub-head">
-        <h2>🎮 校園六大體感＆物理生存挑戰傳送門</h2>
+        <h2>🎮 六大互動挑戰</h2>
         <button class="icon-btn sm" onclick="Game.closeGameHub()">✕</button>
       </div>
-      <p class="hub-desc">點擊任一關卡可立即瞬移至校園角落的特殊機關與 Nano Banana 2 專屬關主旁，或直接進入動漫轉場開始挑戰！</p>
       <div class="hub-grid" id="hub-grid"></div>
     </div>
   </div>
@@ -149,7 +144,7 @@
   <div class="modal" id="dlg" hidden>
     <div class="card dlg-card">
       <div class="dlg-head">
-        <img id="dlg-portrait" class="dlg-portrait" src="assets/anime-boy.jpg" alt="關主立繪" hidden>
+        <img id="dlg-portrait" class="dlg-portrait" src="assets/anime-boy.jpg" alt="關主" hidden>
         <span class="dlg-icon" id="dlg-icon">🧑‍🏫</span>
         <div>
           <b id="dlg-name">老師</b>
@@ -165,9 +160,9 @@
   <div class="modal" id="quiz" hidden>
     <div class="card quiz-card">
       <div class="quiz-head">
-        <span class="quiz-sub" id="quiz-sub">三年級・數學</span>
+        <span class="quiz-sub" id="quiz-sub">數學</span>
         <span class="dots" id="quiz-dots"></span>
-        <button class="icon-btn sm" onclick="Game.readQuestion()" aria-label="朗讀題目">🔊</button>
+        <button class="icon-btn sm" onclick="Game.readQuestion()" aria-label="朗讀">🔊</button>
       </div>
       <h2 class="quiz-q" id="quiz-q"></h2>
       <div class="opts" id="quiz-opts"></div>
@@ -194,41 +189,44 @@
         <div class="cert-border">
           <p class="cert-school">臺北市信義區光復國民小學</p>
           <h2>獎　狀</h2>
-          <p class="cert-body"><b id="cert-name">小小探險家</b> 同學<br>參加「<span id="cert-grade">三年級</span>校園探險闖關」，<br>完成六大物理生存互動體驗與國語、數學、<span id="cert-subj">自然、社會</span>、英語、健體、藝術<br>及認識校園關卡，共獲得 <b id="cert-stars">24</b> 顆星，<br>表現優異，特頒此狀，以資鼓勵。</p>
+          <p class="cert-body"><b id="cert-name">小小探險家</b> 同學<br>參加「<span id="cert-grade">三年級</span>校園探險闖關」，<br>完成六大互動體驗與國語、數學、<span id="cert-subj">自然、社會</span>、英語、健體、藝術<br>及認識校園關卡，共獲得 <b id="cert-stars">24</b> 顆星，<br>表現優異，特頒此狀，以資鼓勵。</p>
           <div class="cert-seal">光復國小<br>探險王</div>
           <p class="cert-sign">校長　光復國小</p>
           <p class="cert-date" id="cert-date"></p>
         </div>
       </div>
       <div class="dlg-actions no-print">
-        <button class="btn btn-ghost" id="btn-print" onclick="window.print()">🖨️ 列印獎狀</button>
-        <button class="btn btn-go" onclick="Game.closeCert()">繼續逛校園</button>
+        <button class="btn btn-ghost" id="btn-print" onclick="window.print()">🖨️ 列印</button>
+        <button class="btn btn-go" onclick="Game.closeCert()">返回校園</button>
       </div>
     </div>
   </div>
 
-  <!-- 選單 -->
+  <!-- 右上角設定選單（極簡網格版，無冗長文字） -->
   <div class="modal" id="menu" hidden>
     <div class="card menu-card">
-      <h2>選單</h2>
-      <button class="btn btn-go btn-block" onclick="Game.closeMenu();Game.openGameHub()">🎮 六大物理＆生存互動遊戲傳送門</button>
-      <button class="btn btn-ghost btn-block" onclick="Game.toggleBGM()">🎵 開關內建木吉他＋長笛校園背景音樂</button>
-      <button class="btn btn-ghost btn-block" onclick="Game.cycleTime()">🌤️ 切換校園時段光影（晨曦／午後／夕陽）</button>
-      <button class="btn btn-ghost btn-block" onclick="Game.backToTitle()">🎒 換年級／換角色</button>
-      <button class="btn btn-ghost btn-block" onclick="Game.respawn()">🏫 回到光復南路校門口</button>
-      <button class="btn btn-ghost btn-block" onclick="Game.resetGrade()">🔄 重新挑戰這個年級</button>
-      <button class="btn btn-ghost btn-block" onclick="Game.showHelp()">❓ 怎麼玩</button>
-      <button class="btn btn-ghost btn-block" onclick="Game.closeMenu()">繼續玩</button>
-      <p class="menu-foot">依臺北市信義區光復國小實景建模：光復南路271號開放式校門、修澤蘭建築師「光復樓（圓樓）」、圓樓前〈水袖〉雕塑與兩側「光復」題字、荷花池飄逸大波斯菊花海、東側王大閎國父紀念館實景飛簷與六大物理生存互動關卡</p>
+      <div class="hub-head">
+        <h2>⚙️ 設定選單</h2>
+        <button class="icon-btn sm" onclick="Game.closeMenu()">✕</button>
+      </div>
+      <div class="menu-grid">
+        <button class="menu-tile primary" onclick="Game.closeMenu();Game.openGameHub()"><i>🎮</i><span>六大遊戲</span></button>
+        <button class="menu-tile" onclick="Game.toggleBGM()"><i>🎵</i><span>音樂開關</span></button>
+        <button class="menu-tile" onclick="Game.cycleTime()"><i>🌤️</i><span>切換光影</span></button>
+        <button class="menu-tile" onclick="Game.backToTitle()"><i>🎒</i><span>換年級角色</span></button>
+        <button class="menu-tile" onclick="Game.respawn()"><i>🏫</i><span>回校門口</span></button>
+        <button class="menu-tile" onclick="Game.resetGrade()"><i>🔄</i><span>重置進度</span></button>
+      </div>
+      <button class="btn btn-go btn-block" onclick="Game.closeMenu()">繼續探險</button>
     </div>
   </div>
 
   <div class="toast" id="toast" hidden></div>
 
   <script src="js/vendor/three.min.js"></script>
-  <script src="js/assets.js?v=7"></script>
-  <script src="js/questions.js?v=7"></script>
-  <script src="js/school.js?v=7"></script>
-  <script src="js/game.js?v=7"></script>
+  <script src="js/assets.js?v=8"></script>
+  <script src="js/questions.js?v=8"></script>
+  <script src="js/school.js?v=8"></script>
+  <script src="js/game.js?v=8"></script>
 </body>
 </html>
